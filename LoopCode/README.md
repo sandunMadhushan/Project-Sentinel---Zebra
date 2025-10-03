@@ -52,7 +52,32 @@ LoopCode_sentinel/
 
 ## 🚀 Quick Start
 
-### Option 1: Generate Test Data (Recommended for Testing)
+### 🆕 Option 0: Interactive Dashboard (NEW! - Easiest!)
+
+**No terminal commands needed! Select data folders and run detection from the UI.**
+
+```bash
+cd LoopCode
+python start_dashboard.py
+```
+
+**Then in the browser:**
+1. Click "📁 Data Source Configuration"
+2. Select data folder (or enter custom path)
+3. Click "🚀 Run Event Detection"
+4. View results automatically! 🎉
+
+**Features:**
+- ✅ Select input folder from UI
+- ✅ One-click event detection
+- ✅ Auto-load results
+- ✅ No terminal needed!
+
+**📖 Full Interactive Guide:** [INTERACTIVE_DASHBOARD_GUIDE.md](INTERACTIVE_DASHBOARD_GUIDE.md)
+
+---
+
+### Option 1: Generate Test Data (Traditional Method)
 
 Generate realistic synthetic data to see all algorithms in action:
 

@@ -5,11 +5,17 @@ Project Sentinel Dashboard
 Interactive dashboard for visualizing detected events and system metrics.
 Built with Streamlit for easy deployment and interaction.
 
-Author: Team 01
+Author: LoopCode
 Date: October 2025
 
+Features:
+    - Dynamic data folder selection
+    - Run event detection from dashboard
+    - Real-time event visualization
+    - Interactive filtering and analysis
+
 Usage:
-    streamlit run dashboard_app.py -- --events-file path/to/events.jsonl
+    streamlit run dashboard_app.py
 """
 
 import streamlit as st
@@ -18,9 +24,99 @@ import json
 from pathlib import Path
 from datetime import datetime
 import sys
+import os
+import subprocess
+import time
 
 # Add parent directory to path
 sys.path.append(str(Path(__file__).parent.parent))
+
+
+def get_default_data_paths():
+    """Get list of common data folder paths."""
+    base_dir = Path(__file__).parent.parent.parent
+    paths = {
+        "Competition Data (data/input)": base_dir / "data" / "input",
+        "Generated Test Data": base_dir / "tools" / "generated_test_data",
+        "Sample Data": base_dir / "data" / "input",
+    }
+    return {k: str(v) for k, v in paths.items() if v.exists()}
+
+
+def validate_data_folder(folder_path: str) -> tuple[bool, str]:
+    """Validate if the folder contains required data files."""
+    folder = Path(folder_path)
+    
+    if not folder.exists():
+        return False, "Folder does not exist"
+    
+    required_files = [
+        'products_list.csv',
+        'customer_data.csv'
+    ]
+    
+    required_jsonl = [
+        'pos_transactions.jsonl',
+        'rfid_readings.jsonl'
+    ]
+    
+    missing_files = []
+    for file in required_files:
+        if not (folder / file).exists():
+            missing_files.append(file)
+    
+    has_jsonl = any((folder / file).exists() for file in required_jsonl)
+    if not has_jsonl:
+        missing_files.append("at least one .jsonl file (pos_transactions, rfid_readings, etc.)")
+    
+    if missing_files:
+        return False, f"Missing required files: {', '.join(missing_files)}"
+    
+    return True, "Valid data folder"
+
+
+def run_event_detection(data_folder: str, dataset_type: str = "test") -> tuple[bool, str, str]:
+    """Run event detection on the selected data folder.
+    
+    Returns:
+        tuple: (success: bool, message: str, events_file: str)
+    """
+    try:
+        # Get the run_demo.py path
+        executables_dir = Path(__file__).parent.parent.parent / "evidence" / "executables"
+        run_demo_path = executables_dir / "run_demo.py"
+        
+        if not run_demo_path.exists():
+            return False, f"run_demo.py not found at {run_demo_path}", ""
+        
+        # Run the detection
+        cmd = [
+            sys.executable,
+            str(run_demo_path),
+            "--data-dir", data_folder,
+            "--dataset-type", dataset_type
+        ]
+        
+        result = subprocess.run(
+            cmd,
+            capture_output=True,
+            text=True,
+            cwd=str(executables_dir)
+        )
+        
+        if result.returncode == 0:
+            # Find the generated events file
+            events_file = executables_dir / "results" / "events.jsonl"
+            if events_file.exists():
+                return True, "Event detection completed successfully!", str(events_file)
+            else:
+                return False, "Detection ran but no events.jsonl was created", ""
+        else:
+            error_msg = result.stderr if result.stderr else result.stdout
+            return False, f"Detection failed: {error_msg[:500]}", ""
+            
+    except Exception as e:
+        return False, f"Error running detection: {str(e)}", ""
 
 
 def load_events(events_file: str) -> pd.DataFrame:
@@ -52,7 +148,7 @@ def load_events(events_file: str) -> pd.DataFrame:
     return df
 
 
-def create_dashboard(events_file: str):
+def create_dashboard(events_file: str = None):
     """Create the main dashboard interface."""
     
     # Page configuration
@@ -62,9 +158,149 @@ def create_dashboard(events_file: str):
         layout="wide"
     )
     
+    # Initialize session state
+    if 'events_file' not in st.session_state:
+        st.session_state.events_file = events_file
+    if 'data_folder' not in st.session_state:
+        st.session_state.data_folder = None
+    if 'detection_running' not in st.session_state:
+        st.session_state.detection_running = False
+    
     # Title and header
     st.title("🛡️ Project Sentinel - Event Monitoring Dashboard")
     st.markdown("Real-time monitoring and analysis of self-checkout events")
+    st.divider()
+    
+    # ========================================
+    # DATA SOURCE SELECTION SECTION
+    # ========================================
+    with st.expander("📁 Data Source Configuration", expanded=(st.session_state.events_file is None)):
+        st.markdown("### Select Data Input Folder")
+        st.markdown("Choose a folder containing sensor data (CSV and JSONL files) to analyze.")
+        
+        col1, col2 = st.columns([3, 1])
+        
+        with col1:
+            # Get available data paths
+            default_paths = get_default_data_paths()
+            
+            # Selection method
+            input_method = st.radio(
+                "Input Method",
+                ["Select from presets", "Enter custom path"],
+                horizontal=True
+            )
+            
+            if input_method == "Select from presets":
+                if default_paths:
+                    selected_preset = st.selectbox(
+                        "Choose data folder",
+                        options=list(default_paths.keys())
+                    )
+                    data_folder = default_paths[selected_preset]
+                else:
+                    st.warning("No preset data folders found. Please use custom path.")
+                    data_folder = st.text_input(
+                        "Data folder path",
+                        value=str(Path(__file__).parent.parent.parent / "data" / "input"),
+                        help="Enter the absolute path to your data folder"
+                    )
+            else:
+                data_folder = st.text_input(
+                    "Data folder path",
+                    value=st.session_state.data_folder or str(Path(__file__).parent.parent.parent / "data" / "input"),
+                    help="Enter the absolute path to your data folder containing CSV and JSONL files"
+                )
+        
+        with col2:
+            st.markdown("**Dataset Type**")
+            dataset_type = st.selectbox(
+                "Type",
+                ["test", "final"],
+                help="Test: For development. Final: For competition submission"
+            )
+        
+        # Validate folder
+        if data_folder:
+            is_valid, validation_msg = validate_data_folder(data_folder)
+            
+            if is_valid:
+                st.success(f"✅ {validation_msg}")
+                st.session_state.data_folder = data_folder
+                
+                # Show folder contents
+                with st.expander("📂 Folder Contents"):
+                    folder = Path(data_folder)
+                    files = sorted(folder.glob("*"))
+                    
+                    col1, col2 = st.columns(2)
+                    with col1:
+                        st.markdown("**CSV Files:**")
+                        csv_files = [f.name for f in files if f.suffix == '.csv']
+                        if csv_files:
+                            for f in csv_files:
+                                st.text(f"✓ {f}")
+                        else:
+                            st.text("No CSV files")
+                    
+                    with col2:
+                        st.markdown("**JSONL Files:**")
+                        jsonl_files = [f.name for f in files if f.suffix == '.jsonl']
+                        if jsonl_files:
+                            for f in jsonl_files:
+                                st.text(f"✓ {f}")
+                        else:
+                            st.text("No JSONL files")
+                
+                # Run detection button
+                st.markdown("---")
+                col1, col2, col3 = st.columns([2, 1, 2])
+                
+                with col2:
+                    if st.button(
+                        "🚀 Run Event Detection",
+                        type="primary",
+                        disabled=st.session_state.detection_running,
+                        use_container_width=True
+                    ):
+                        st.session_state.detection_running = True
+                        with st.spinner("Running event detection... This may take a few minutes."):
+                            success, message, events_path = run_event_detection(data_folder, dataset_type)
+                            
+                            if success:
+                                st.success(message)
+                                st.session_state.events_file = events_path
+                                st.balloons()
+                                time.sleep(1)
+                                st.rerun()
+                            else:
+                                st.error(message)
+                        
+                        st.session_state.detection_running = False
+                
+                # Check for existing results
+                existing_events = Path(__file__).parent.parent.parent / "evidence" / "executables" / "results" / "events.jsonl"
+                if existing_events.exists() and not st.session_state.events_file:
+                    st.info(f"💡 Found existing events file. Click below to load it.")
+                    if st.button("📊 Load Existing Results"):
+                        st.session_state.events_file = str(existing_events)
+                        st.rerun()
+                
+            else:
+                st.error(f"❌ {validation_msg}")
+                st.info("Please select a valid data folder containing the required files.")
+    
+    # ========================================
+    # EVENTS VISUALIZATION SECTION
+    # ========================================
+    if not st.session_state.events_file:
+        st.info("👆 Please select a data folder and run event detection to view results.")
+        st.stop()
+    
+    events_file = st.session_state.events_file
+    
+    # Show current events file
+    st.markdown(f"**Current Events File:** `{events_file}`")
     st.divider()
     
     # Load events
@@ -253,28 +489,37 @@ def create_dashboard(events_file: str):
         
         # Footer
         st.divider()
-        st.caption("Project Sentinel Dashboard v1.0 | Team 01 | October 2025")
+        st.markdown(f"**Data Source:** `{st.session_state.data_folder or 'N/A'}`")
+        st.caption("Project Sentinel Dashboard v2.0 | LoopCode | October 2025")
         
     except FileNotFoundError:
         st.error(f"❌ Events file not found: {events_file}")
         st.info("Please run the event detector first to generate events.jsonl")
+        if st.button("🔄 Clear and Restart"):
+            st.session_state.events_file = None
+            st.rerun()
     except Exception as e:
         st.error(f"❌ Error loading events: {str(e)}")
         st.exception(e)
+        if st.button("🔄 Clear and Restart"):
+            st.session_state.events_file = None
+            st.rerun()
 
 
 def main():
     """Main entry point for the dashboard."""
-    import argparse
+    # Check if events file is provided via command line (backward compatibility)
+    events_file = None
     
-    # Parse command line arguments
-    parser = argparse.ArgumentParser(description='Project Sentinel Dashboard')
-    parser.add_argument('--events-file', required=True, help='Path to events.jsonl file')
-    
-    args, unknown = parser.parse_known_args()
+    if len(sys.argv) > 1 and '--events-file' in sys.argv:
+        import argparse
+        parser = argparse.ArgumentParser(description='Project Sentinel Dashboard')
+        parser.add_argument('--events-file', help='Path to events.jsonl file')
+        args, unknown = parser.parse_known_args()
+        events_file = args.events_file
     
     # Create dashboard
-    create_dashboard(args.events_file)
+    create_dashboard(events_file)
 
 
 if __name__ == '__main__':
