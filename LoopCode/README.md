@@ -52,47 +52,6 @@ LoopCode_sentinel/
 
 ## 🚀 Quick Start
 
-### 🖥️ Local Deployment (Recommended)
-
-The fastest way to run the dashboard locally:
-
-```bash
-# Quick method - using deployment helper
-cd LoopCode
-python deploy.py --local
-
-# Or manually
-cd evidence/executables
-python run_demo.py --dashboard-only
-```
-
-**Dashboard will open at:** `http://localhost:8502`
-
-### ☁️ Cloud Deployment (Streamlit Cloud)
-
-Deploy to Streamlit Cloud for public access:
-
-```bash
-# 1. Check if you're ready for cloud deployment
-cd LoopCode
-python deploy.py --prepare-cloud
-
-# 2. Commit your events data (required!)
-git add evidence/executables/results/events.jsonl
-git commit -m "Add events data for dashboard"
-git push origin main
-
-# 3. Deploy on Streamlit Cloud
-# - Go to: https://share.streamlit.io
-# - Repository: sandunMadhushan/Project-Sentinel---Zebra
-# - Branch: main
-# - Main file: LoopCode/src/dashboard/dashboard_app.py
-```
-
-**📖 Full deployment guide:** See [DEPLOYMENT_GUIDE.md](DEPLOYMENT_GUIDE.md)
-
----
-
 ### Option 1: Generate Test Data (Recommended for Testing)
 
 Generate realistic synthetic data to see all algorithms in action:

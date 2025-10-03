@@ -5,12 +5,11 @@ Project Sentinel Dashboard
 Interactive dashboard for visualizing detected events and system metrics.
 Built with Streamlit for easy deployment and interaction.
 
-Author: LoopCode
+Author: Team 01
 Date: October 2025
 
 Usage:
-    Local: streamlit run dashboard_app.py -- --events-file path/to/events.jsonl
-    Cloud: Deploy to Streamlit Cloud (will look for events.jsonl automatically)
+    streamlit run dashboard_app.py -- --events-file path/to/events.jsonl
 """
 
 import streamlit as st
@@ -19,56 +18,19 @@ import json
 from pathlib import Path
 from datetime import datetime
 import sys
-import os
 
 # Add parent directory to path
 sys.path.append(str(Path(__file__).parent.parent))
 
 
-def find_events_file() -> Path:
-    """Find events.jsonl file in common locations."""
-    possible_paths = [
-        # For local run from dashboard directory
-        Path(__file__).parent.parent.parent / "evidence" / "executables" / "results" / "events.jsonl",
-        # For running from executables directory
-        Path("results") / "events.jsonl",
-        # For Streamlit Cloud (relative to app root)
-        Path("LoopCode") / "evidence" / "executables" / "results" / "events.jsonl",
-        # For running from project root
-        Path("evidence") / "executables" / "results" / "events.jsonl",
-        # Sample events file
-        Path(__file__).parent.parent.parent / "evidence" / "output" / "final" / "events.json",
-    ]
-    
-    for path in possible_paths:
-        if path.exists():
-            return path
-    
-    return None
-
-
-def load_events(events_file: str = None) -> pd.DataFrame:
+def load_events(events_file: str) -> pd.DataFrame:
     """Load events from JSONL file into DataFrame."""
-    # Auto-find events file if not provided
-    if events_file is None:
-        events_file = find_events_file()
-        if events_file is None:
-            return pd.DataFrame()
-    
-    events_file = Path(events_file)
-    if not events_file.exists():
-        st.error(f"Events file not found: {events_file}")
-        return pd.DataFrame()
-    
     events = []
     with open(events_file, 'r', encoding='utf-8') as f:
         for line in f:
             line = line.strip()
             if line:
-                try:
-                    events.append(json.loads(line))
-                except json.JSONDecodeError:
-                    continue
+                events.append(json.loads(line))
     
     if not events:
         return pd.DataFrame()
