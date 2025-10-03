@@ -1,0 +1,18 @@
+# Project Sentinel - Python Requirements
+# ========================================
+# 
+# Core dependencies for Project Sentinel event detection and dashboard
+#
+# Installation:
+#   pip install -r requirements.txt
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Dashboard and Visualization
+streamlit>=1.28.0
+plotly>=5.17.0
+
+# Optional: For enhanced analytics
+scikit-learn>=1.3.0
