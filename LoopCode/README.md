@@ -7,7 +7,7 @@ This directory contains LoopCode's complete solution for Project Sentinel - a co
 ## 🗂️ Directory Structure
 
 ```
-Team01_sentinel/
+LoopCode_sentinel/
 ├── README.md                    # This file - project overview
 ├── SUBMISSION_GUIDE.md          # Detailed submission information
 ├── QUICK_START.md              # Quick test guide with examples

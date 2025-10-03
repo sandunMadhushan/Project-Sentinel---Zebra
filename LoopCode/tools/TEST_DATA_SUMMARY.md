@@ -7,12 +7,12 @@ A comprehensive test data generator (`tools/generate_test_data.py`) that creates
 ## Files Created
 
 ### 1. Test Data Generator
-- **Location:** `Team01_sentinel/tools/generate_test_data.py`
+- **Location:** `LoopCode_sentinel/tools/generate_test_data.py`
 - **Size:** ~500 lines
 - **Purpose:** Generate realistic test datasets with multiple event scenarios
 
 ### 2. Tools Documentation
-- **Location:** `Team01_sentinel/tools/README.md`
+- **Location:** `LoopCode_sentinel/tools/README.md`
 - **Purpose:** Complete usage guide for the generator
 
 ## Generated Test Data Results

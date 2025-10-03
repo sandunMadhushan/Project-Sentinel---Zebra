@@ -1,4 +1,13 @@
-# Quick Test Guide
+# QuGenerate realistic test data to see all algorithms in action:
+
+```bash
+cd LoopCode_sentinel/tools
+python generate_test_data.py
+
+# Run detection on generated data
+cd ../evidence/executables
+python run_demo.py --data-dir ../../tools/generated_test_data --dataset-type test
+```uide
 
 ## Option 1: Generate Test Data (Recommended)
 
@@ -18,7 +27,7 @@ This generates 100+ transactions with multiple fraud scenarios, queue patterns, 
 ## Option 2: Use Provided Sample Data
 
 ```bash
-cd Team01_sentinel/evidence/executables
+cd LoopCode_sentinel/evidence/executables
 python run_demo.py --data-dir ../../../data/input --dataset-type test
 ```
 

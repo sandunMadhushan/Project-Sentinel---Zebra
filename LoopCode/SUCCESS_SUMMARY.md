@@ -86,7 +86,7 @@ Stations: 4 (SCC1, SCC2, SCC3, SCC4)
 ### Quick Test (Recommended):
 ```bash
 # 1. Generate test data
-cd Team01_sentinel/tools
+cd LoopCode_sentinel/tools
 python generate_test_data.py
 
 # 2. Run detection
