@@ -1,11 +1,28 @@
 # Quick Test Guide
 
-## Run the Full Solution
+## Option 1: Generate Test Data (Recommended)
+
+Generate realistic test data to see all detection algorithms in action:
+
+```bash
+cd Team01_sentinel/tools
+python generate_test_data.py
+
+# Run detection on generated data
+cd ../evidence/executables
+python run_demo.py --data-dir ../../tools/generated_test_data --dataset-type test
+```
+
+This generates 100+ transactions with multiple fraud scenarios, queue patterns, and inventory issues.
+
+## Option 2: Use Provided Sample Data
 
 ```bash
 cd Team01_sentinel/evidence/executables
 python run_demo.py --data-dir ../../../data/input --dataset-type test
 ```
+
+Note: Sample data has minimal records (1-2 per file), so you'll see fewer events.
 
 ## Check Output
 
@@ -23,7 +40,14 @@ ls -la ../../evidence/output/test/
 ## Launch Dashboard
 
 ```bash
-python run_demo.py --data-dir ../../../data/input --launch-dashboard
+# Launch dashboard with latest results
+python run_demo.py --dashboard-only
+```
+
+Or run full pipeline with dashboard:
+
+```bash
+python run_demo.py --data-dir ../../tools/generated_test_data --launch-dashboard
 ```
 
 ## What Gets Created
