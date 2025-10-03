@@ -17,7 +17,7 @@ Features:
     - System anomalies and crashes
     - Statistical and behavioral anomalies
 
-Author: Team 01
+Author: LoopCode
 Date: October 2025
 """
 

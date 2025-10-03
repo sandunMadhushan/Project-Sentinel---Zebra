@@ -19,7 +19,7 @@ Usage:
     # Launch dashboard only (using existing results)
     python3 run_demo.py --dashboard-only
 
-Author: Team 01
+Author: LoopCode
 Date: October 2025
 """
 

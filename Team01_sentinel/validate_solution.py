@@ -193,7 +193,7 @@ def validate_submission_guide():
         "<ENTER INFO>",
         "[Your Team Members Here]",
         "[Your Email Here]",
-        "Team 01"
+        "LoopCode"  # Team name should be filled in
     ]
     
     issues = []
