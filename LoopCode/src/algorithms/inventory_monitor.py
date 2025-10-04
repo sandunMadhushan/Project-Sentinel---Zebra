@@ -24,7 +24,7 @@ from data_models import DetectedEvent, InventorySnapshot, POSTransaction
 def detect_inventory_discrepancies(initial_snapshot: InventorySnapshot,
                                    final_snapshot: InventorySnapshot,
                                    pos_transactions: List[POSTransaction],
-                                   tolerance: int = 5) -> List[DetectedEvent]:
+                                   tolerance: int = 2) -> List[DetectedEvent]:
     """
     Detect inventory discrepancies by reconciling expected vs actual stock.
     

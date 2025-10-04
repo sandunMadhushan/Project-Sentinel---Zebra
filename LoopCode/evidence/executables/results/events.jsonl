@@ -60,6 +60,7 @@
 {"timestamp": "2025-08-13T16:21:30", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C002", "actual_sku": "PRD_F_13", "scanned_sku": "PRD_T_01"}}
 {"timestamp": "2025-08-13T16:21:35", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C002", "actual_sku": "PRD_T_01", "scanned_sku": "PRD_C_01"}}
 {"timestamp": "2025-08-13T16:21:40", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C002", "actual_sku": "PRD_C_01", "scanned_sku": "PRD_C_02"}}
+{"timestamp": "2025-08-13T16:21:50", "event_id": "E001", "event_data": {"event_name": "Scanner Avoidance", "station_id": "SCC1", "customer_id": "UNKNOWN", "product_sku": "PRD_S_03"}}
 {"timestamp": "2025-08-13T16:23:15", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C009", "actual_sku": "PRD_C_02", "scanned_sku": "PRD_F_06"}}
 {"timestamp": "2025-08-13T16:23:25", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C009", "actual_sku": "PRD_F_06", "scanned_sku": "PRD_T_03"}}
 {"timestamp": "2025-08-13T16:23:30", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C009", "actual_sku": "PRD_T_05", "scanned_sku": "PRD_B_05"}}
@@ -129,6 +130,7 @@
 {"timestamp": "2025-08-13T16:44:30", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
 {"timestamp": "2025-08-13T16:44:35", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
 {"timestamp": "2025-08-13T16:44:40", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:45:25", "event_id": "E001", "event_data": {"event_name": "Scanner Avoidance", "station_id": "SCC1", "customer_id": "UNKNOWN", "product_sku": "PRD_F_10"}}
 {"timestamp": "2025-08-13T16:46:15", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC1", "num_of_customers": 7}}
 {"timestamp": "2025-08-13T16:46:15", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
 {"timestamp": "2025-08-13T16:46:20", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC1", "num_of_customers": 6}}
@@ -199,6 +201,7 @@
 {"timestamp": "2025-08-13T17:01:50", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Manager"}}
 {"timestamp": "2025-08-13T17:01:55", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 7}}
 {"timestamp": "2025-08-13T17:01:55", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:02:00", "event_id": "E001", "event_data": {"event_name": "Scanner Avoidance", "station_id": "SCC1", "customer_id": "UNKNOWN", "product_sku": "PRD_F_04"}}
 {"timestamp": "2025-08-13T17:02:00", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C053", "actual_sku": "PRD_F_12", "scanned_sku": "PRD_C_02"}}
 {"timestamp": "2025-08-13T17:02:00", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 7}}
 {"timestamp": "2025-08-13T17:02:00", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
@@ -251,6 +254,7 @@
 {"timestamp": "2025-08-13T17:06:15", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC1", "num_of_customers": 6}}
 {"timestamp": "2025-08-13T17:06:15", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
 {"timestamp": "2025-08-13T17:06:20", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:06:40", "event_id": "E001", "event_data": {"event_name": "Scanner Avoidance", "station_id": "SCC1", "customer_id": "UNKNOWN", "product_sku": "PRD_T_02"}}
 {"timestamp": "2025-08-13T17:06:40", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C004", "actual_sku": "PRD_C_03", "scanned_sku": "PRD_A_04"}}
 {"timestamp": "2025-08-13T17:07:20", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C031", "actual_sku": "PRD_T_03", "scanned_sku": "PRD_F_07"}}
 {"timestamp": "2025-08-13T17:07:25", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C031", "actual_sku": "PRD_F_07", "scanned_sku": "PRD_C_03"}}
@@ -289,6 +293,7 @@
 {"timestamp": "2025-08-13T17:15:05", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
 {"timestamp": "2025-08-13T17:15:10", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
 {"timestamp": "2025-08-13T17:15:15", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:15:50", "event_id": "E001", "event_data": {"event_name": "Scanner Avoidance", "station_id": "SCC1", "customer_id": "UNKNOWN", "product_sku": "PRD_T_02"}}
 {"timestamp": "2025-08-13T17:17:30", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C039", "actual_sku": "PRD_F_13", "scanned_sku": "PRD_A_04"}}
 {"timestamp": "2025-08-13T17:17:35", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C039", "actual_sku": "PRD_F_11", "scanned_sku": "PRD_V_05"}}
 {"timestamp": "2025-08-13T17:17:45", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C039", "actual_sku": "PRD_V_05", "scanned_sku": "PRD_F_01"}}
@@ -339,6 +344,7 @@
 {"timestamp": "2025-08-13T17:23:55", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
 {"timestamp": "2025-08-13T17:24:00", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 7}}
 {"timestamp": "2025-08-13T17:24:00", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:24:05", "event_id": "E001", "event_data": {"event_name": "Scanner Avoidance", "station_id": "SCC1", "customer_id": "UNKNOWN", "product_sku": "PRD_F_02"}}
 {"timestamp": "2025-08-13T17:24:05", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C049", "actual_sku": "PRD_F_02", "scanned_sku": "PRD_T_03"}}
 {"timestamp": "2025-08-13T17:24:05", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 6}}
 {"timestamp": "2025-08-13T17:24:05", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
@@ -501,14 +507,17 @@
 {"timestamp": "2025-08-13T17:43:15", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C034", "actual_sku": "PRD_H_03", "scanned_sku": "PRD_F_08"}}
 {"timestamp": "2025-08-13T17:43:20", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C034", "actual_sku": "PRD_A_03", "scanned_sku": "PRD_C_02"}}
 {"timestamp": "2025-08-13T17:43:25", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C034", "actual_sku": "PRD_H_01", "scanned_sku": "PRD_C_01"}}
+{"timestamp": "2025-08-13T17:43:40", "event_id": "E001", "event_data": {"event_name": "Scanner Avoidance", "station_id": "SCC1", "customer_id": "UNKNOWN", "product_sku": "PRD_F_05"}}
 {"timestamp": "2025-08-13T17:45:45", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C005", "actual_sku": "PRD_B_05", "scanned_sku": "PRD_H_04"}}
 {"timestamp": "2025-08-13T17:45:50", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C005", "actual_sku": "PRD_V_02", "scanned_sku": "PRD_B_02"}}
 {"timestamp": "2025-08-13T17:45:55", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C005", "actual_sku": "PRD_B_03", "scanned_sku": "PRD_V_03"}}
 {"timestamp": "2025-08-13T17:46:00", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C005", "actual_sku": "PRD_V_03", "scanned_sku": "PRD_C_04"}}
 {"timestamp": "2025-08-13T17:46:05", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C005", "actual_sku": "PRD_F_02", "scanned_sku": "PRD_S_05"}}
+{"timestamp": "2025-08-13T17:46:45", "event_id": "E001", "event_data": {"event_name": "Scanner Avoidance", "station_id": "SCC1", "customer_id": "UNKNOWN", "product_sku": "PRD_F_11"}}
 {"timestamp": "2025-08-13T17:47:45", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C045", "actual_sku": "PRD_F_14", "scanned_sku": "PRD_A_05"}}
 {"timestamp": "2025-08-13T17:47:50", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C045", "actual_sku": "PRD_F_08", "scanned_sku": "PRD_F_04"}}
 {"timestamp": "2025-08-13T17:47:55", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C045", "actual_sku": "PRD_C_02", "scanned_sku": "PRD_B_02"}}
+{"timestamp": "2025-08-13T17:48:00", "event_id": "E001", "event_data": {"event_name": "Scanner Avoidance", "station_id": "SCC1", "customer_id": "UNKNOWN", "product_sku": "PRD_H_03"}}
 {"timestamp": "2025-08-13T17:48:00", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C045", "actual_sku": "PRD_C_01", "scanned_sku": "PRD_H_02"}}
 {"timestamp": "2025-08-13T17:49:15", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C053", "actual_sku": "PRD_H_04", "scanned_sku": "PRD_S_03"}}
 {"timestamp": "2025-08-13T17:49:15", "event_id": "E003", "event_data": {"event_name": "Weight Discrepancies", "station_id": "SCC1", "customer_id": "C053", "product_sku": "PRD_S_03", "expected_weight": 1500, "actual_weight": 756}}
@@ -530,6 +539,7 @@
 {"timestamp": "2025-08-13T17:54:35", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C012", "actual_sku": "PRD_T_04", "scanned_sku": "PRD_B_01"}}
 {"timestamp": "2025-08-13T17:54:40", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C012", "actual_sku": "PRD_A_05", "scanned_sku": "PRD_V_02"}}
 {"timestamp": "2025-08-13T17:55:25", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C017", "actual_sku": "PRD_A_01", "scanned_sku": "PRD_S_03"}}
+{"timestamp": "2025-08-13T17:55:25", "event_id": "E003", "event_data": {"event_name": "Weight Discrepancies", "station_id": "SCC1", "customer_id": "C017", "product_sku": "PRD_S_03", "expected_weight": 1500, "actual_weight": 1691}}
 {"timestamp": "2025-08-13T17:57:10", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C051", "actual_sku": "PRD_S_02", "scanned_sku": "PRD_B_02"}}
 {"timestamp": "2025-08-13T17:57:15", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C051", "actual_sku": "PRD_V_04", "scanned_sku": "PRD_T_01"}}
 {"timestamp": "2025-08-13T17:57:20", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C051", "actual_sku": "PRD_F_09", "scanned_sku": "PRD_C_01"}}
@@ -552,3 +562,11 @@
 {"timestamp": "2025-08-13T18:00:00", "event_id": "E009", "event_data": {"event_name": "Checkout Station Action", "station_id": "SCC2", "Action": "Close"}}
 {"timestamp": "2025-08-13T18:00:00", "event_id": "E009", "event_data": {"event_name": "Checkout Station Action", "station_id": "SCC3", "Action": "Close"}}
 {"timestamp": "2025-08-13T18:00:00", "event_id": "E009", "event_data": {"event_name": "Checkout Station Action", "station_id": "SCC4", "Action": "Close"}}
+{"timestamp": "2025-08-13T18:00:00", "event_id": "E007", "event_data": {"event_name": "Inventory Discrepancy", "SKU": "PRD_F_04", "Expected_Inventory": 56, "Actual_Inventory": 53}}
+{"timestamp": "2025-08-13T18:00:00", "event_id": "E007", "event_data": {"event_name": "Inventory Discrepancy", "SKU": "PRD_F_05", "Expected_Inventory": 72, "Actual_Inventory": 68}}
+{"timestamp": "2025-08-13T18:00:00", "event_id": "E007", "event_data": {"event_name": "Inventory Discrepancy", "SKU": "PRD_F_07", "Expected_Inventory": 94, "Actual_Inventory": 91}}
+{"timestamp": "2025-08-13T18:00:00", "event_id": "E007", "event_data": {"event_name": "Inventory Discrepancy", "SKU": "PRD_F_10", "Expected_Inventory": 55, "Actual_Inventory": 51}}
+{"timestamp": "2025-08-13T18:00:00", "event_id": "E007", "event_data": {"event_name": "Inventory Discrepancy", "SKU": "PRD_A_02", "Expected_Inventory": 65, "Actual_Inventory": 61}}
+{"timestamp": "2025-08-13T18:00:00", "event_id": "E007", "event_data": {"event_name": "Inventory Discrepancy", "SKU": "PRD_A_03", "Expected_Inventory": 45, "Actual_Inventory": 42}}
+{"timestamp": "2025-08-13T18:00:00", "event_id": "E007", "event_data": {"event_name": "Inventory Discrepancy", "SKU": "PRD_A_05", "Expected_Inventory": 74, "Actual_Inventory": 70}}
+{"timestamp": "2025-08-13T18:00:00", "event_id": "E007", "event_data": {"event_name": "Inventory Discrepancy", "SKU": "PRD_T_04", "Expected_Inventory": 54, "Actual_Inventory": 51}}

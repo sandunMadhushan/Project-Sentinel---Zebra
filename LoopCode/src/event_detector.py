@@ -23,8 +23,9 @@ from data_models import (
     ProductRecognition, QueueMonitoring, InventorySnapshot
 )
 from algorithms.fraud_detection import (
-    detect_scanner_avoidance, detect_barcode_switching,
-    detect_weight_discrepancies, detect_success_operations
+    detect_scanner_avoidance_rfid, detect_scanner_avoidance_vision,
+    detect_barcode_switching, detect_weight_discrepancies, 
+    detect_success_operations
 )
 from algorithms.queue_analyzer import (
     detect_long_queues, detect_long_wait_times,
@@ -128,13 +129,23 @@ class EventDetector:
         self.detected_events.extend(success_events)
         print(f"  [OK] Detected {len(success_events)} success operations")
         
-        # Detect scanner avoidance
-        avoidance_events = detect_scanner_avoidance(
+        # Detect scanner avoidance (PRIMARY: Vision-based detection)
+        # This aligns with Zebra documentation about vision system predictions
+        avoidance_events_vision = detect_scanner_avoidance_vision(
+            self.product_recognitions,
+            self.pos_transactions
+        )
+        self.detected_events.extend(avoidance_events_vision)
+        print(f"  [OK] Detected {len(avoidance_events_vision)} scanner avoidance events (vision-based)")
+        
+        # Detect scanner avoidance (SECONDARY: RFID-based detection)
+        # Additional layer using RFID tags for redundancy
+        avoidance_events_rfid = detect_scanner_avoidance_rfid(
             self.rfid_readings,
             self.pos_transactions
         )
-        self.detected_events.extend(avoidance_events)
-        print(f"  [OK] Detected {len(avoidance_events)} scanner avoidance events")
+        self.detected_events.extend(avoidance_events_rfid)
+        print(f"  [OK] Detected {len(avoidance_events_rfid)} scanner avoidance events (RFID-based)")
         
         # Detect barcode switching
         switching_events = detect_barcode_switching(

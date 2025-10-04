@@ -22,10 +22,10 @@ from data_models import (DetectedEvent, POSTransaction, RFIDReading,
                           ProductRecognition)
 
 
-# @algorithm Scanner Avoidance Detection | Detect items that were detected by RFID but not scanned at POS
-def detect_scanner_avoidance(rfid_readings: List[RFIDReading],
-                             pos_transactions: List[POSTransaction],
-                             time_window_seconds: int = 60) -> List[DetectedEvent]:
+# @algorithm Scanner Avoidance Detection (RFID-based) | Detect items that were detected by RFID but not scanned at POS
+def detect_scanner_avoidance_rfid(rfid_readings: List[RFIDReading],
+                                  pos_transactions: List[POSTransaction],
+                                  time_window_seconds: int = 60) -> List[DetectedEvent]:
     """
     Detect scanner avoidance by comparing RFID readings with POS transactions.
     
@@ -81,6 +81,82 @@ def detect_scanner_avoidance(rfid_readings: List[RFIDReading],
                     product_sku=rfid_item.sku
                 )
                 events.append(event)
+    
+    return events
+
+
+# @algorithm Vision-Based Scanner Avoidance Detection | Detect items seen by vision system but not scanned at POS
+def detect_scanner_avoidance_vision(vision_predictions: List[ProductRecognition],
+                                   pos_transactions: List[POSTransaction],
+                                   confidence_threshold: float = 0.70) -> List[DetectedEvent]:
+    """
+    Detect scanner avoidance using vision system predictions.
+    
+    This is the PRIMARY scanner avoidance detection method that aligns with
+    Zebra's documentation about vision system predictions. It detects when
+    the vision system sees a product with high confidence but no matching
+    POS transaction occurs within a reasonable time window.
+    
+    Algorithm:
+    1. Filter vision predictions by confidence threshold (default 70%)
+    2. For each high-confidence prediction, define time window [-5s, +10s]
+    3. Search for matching POS transaction in that window
+    4. Match criteria: same station_id AND same SKU
+    5. If no match found, flag as scanner avoidance
+    
+    Time window rationale:
+    - Look back 5s: Customer may scan before vision system confirms
+    - Look ahead 10s: Vision may detect before customer finishes scanning
+    
+    Args:
+        vision_predictions: List of vision system predictions
+        pos_transactions: List of POS transactions
+        confidence_threshold: Minimum confidence to consider (default 0.70)
+        
+    Returns:
+        List of detected scanner avoidance events
+    """
+    events = []
+    
+    # Filter predictions by confidence
+    reliable_predictions = [
+        pred for pred in vision_predictions 
+        if pred.accuracy >= confidence_threshold
+    ]
+    
+    # Convert timestamps to datetime for comparison
+    for prediction in reliable_predictions:
+        vision_time = datetime.fromisoformat(prediction.timestamp)
+        station_id = prediction.station_id
+        predicted_sku = prediction.predicted_product
+        
+        # Define time window: -5 seconds to +10 seconds from vision detection
+        window_start = vision_time - timedelta(seconds=5)
+        window_end = vision_time + timedelta(seconds=10)
+        
+        # Search for matching POS transaction
+        matching_found = False
+        for transaction in pos_transactions:
+            if transaction.station_id != station_id:
+                continue
+            
+            trans_time = datetime.fromisoformat(transaction.timestamp)
+            
+            # Check if transaction is within time window and matches SKU
+            if (window_start <= trans_time <= window_end and 
+                transaction.sku == predicted_sku):
+                matching_found = True
+                break
+        
+        # If no matching transaction found, this is scanner avoidance
+        if not matching_found:
+            event = DetectedEvent.create_scanner_avoidance(
+                timestamp=prediction.timestamp,
+                station_id=station_id,
+                customer_id="UNKNOWN",  # Vision system doesn't track customer ID
+                product_sku=predicted_sku
+            )
+            events.append(event)
     
     return events
 
@@ -155,7 +231,7 @@ def detect_barcode_switching(pos_transactions: List[POSTransaction],
 # @algorithm Weight Verification | Detect weight discrepancies between expected and actual product weights
 def detect_weight_discrepancies(pos_transactions: List[POSTransaction],
                                 products_catalog: Dict[str, Dict],
-                                tolerance_percent: float = 15.0) -> List[DetectedEvent]:
+                                tolerance_percent: float = 10.0) -> List[DetectedEvent]:
     """
     Detect weight discrepancies by comparing actual weights with expected weights.
     
