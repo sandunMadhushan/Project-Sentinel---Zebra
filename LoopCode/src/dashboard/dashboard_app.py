@@ -27,18 +27,63 @@ import sys
 import os
 import subprocess
 import time
+import threading
 
 # Add parent directory to path
 sys.path.append(str(Path(__file__).parent.parent))
+
+
+def open_folder_dialog():
+    """Open native folder picker dialog and return selected path."""
+    try:
+        import tkinter as tk
+        from tkinter import filedialog
+        
+        # Create root window (hidden)
+        root = tk.Tk()
+        root.withdraw()
+        root.attributes('-topmost', True)
+        
+        # Open folder dialog
+        folder_path = filedialog.askdirectory(
+            title="Select Data Input Folder",
+            initialdir=str(Path(__file__).parent.parent.parent)
+        )
+        
+        root.destroy()
+        return folder_path if folder_path else None
+        
+    except Exception as e:
+        return None
+
+
+def list_folders_in_directory(parent_dir: str) -> list:
+    """List all folders in a directory."""
+    try:
+        parent = Path(parent_dir)
+        if not parent.exists() or not parent.is_dir():
+            return []
+        return sorted([str(d) for d in parent.iterdir() if d.is_dir()])
+    except Exception:
+        return []
+
+
+def get_drives():
+    """Get available drives on Windows."""
+    import string
+    drives = []
+    for letter in string.ascii_uppercase:
+        drive = f"{letter}:\\"
+        if Path(drive).exists():
+            drives.append(drive)
+    return drives
 
 
 def get_default_data_paths():
     """Get list of common data folder paths."""
     base_dir = Path(__file__).parent.parent.parent
     paths = {
-        "Competition Data (data/input)": base_dir / "data" / "input",
-        "Generated Test Data": base_dir / "tools" / "generated_test_data",
-        "Sample Data": base_dir / "data" / "input",
+        "New Data (src/data/input)": base_dir / "src" / "data" / "input",
     }
     return {k: str(v) for k, v in paths.items() if v.exists()}
 
@@ -82,18 +127,34 @@ def run_event_detection(data_folder: str, dataset_type: str = "test") -> tuple[b
         tuple: (success: bool, message: str, events_file: str)
     """
     try:
-        # Get the run_demo.py path
-        executables_dir = Path(__file__).parent.parent.parent / "evidence" / "executables"
+        # Get the run_demo.py path - use absolute path
+        executables_dir = Path(__file__).resolve().parent.parent.parent / "evidence" / "executables"
         run_demo_path = executables_dir / "run_demo.py"
         
         if not run_demo_path.exists():
             return False, f"run_demo.py not found at {run_demo_path}", ""
         
-        # Run the detection
+        # Convert data folder to absolute Windows path (not Git Bash style)
+        data_folder_path = Path(data_folder).resolve()
+        
+        # Ensure the path exists
+        if not data_folder_path.exists():
+            return False, f"Data folder does not exist: {data_folder_path}", ""
+        
+        # Convert to Windows-style path (important for subprocess)
+        data_folder_abs = str(data_folder_path).replace('/', '\\')
+        executables_dir_abs = str(executables_dir.resolve()).replace('/', '\\')
+        run_demo_abs = str(run_demo_path.resolve()).replace('/', '\\')
+        
+        # Ensure the executables directory exists
+        if not executables_dir.exists():
+            return False, f"Executables directory not found at {executables_dir}", ""
+        
+        # Run the detection with absolute Windows paths
         cmd = [
             sys.executable,
-            str(run_demo_path),
-            "--data-dir", data_folder,
+            run_demo_abs,
+            "--data-dir", data_folder_abs,
             "--dataset-type", dataset_type
         ]
         
@@ -101,7 +162,8 @@ def run_event_detection(data_folder: str, dataset_type: str = "test") -> tuple[b
             cmd,
             capture_output=True,
             text=True,
-            cwd=str(executables_dir)
+            cwd=executables_dir_abs,
+            shell=False  # Don't use shell to avoid path interpretation issues
         )
         
         if result.returncode == 0:
@@ -113,10 +175,13 @@ def run_event_detection(data_folder: str, dataset_type: str = "test") -> tuple[b
                 return False, "Detection ran but no events.jsonl was created", ""
         else:
             error_msg = result.stderr if result.stderr else result.stdout
-            return False, f"Detection failed: {error_msg[:500]}", ""
+            # Include more detailed error information
+            full_error = f"Command: {' '.join(cmd)}\n\nStdout:\n{result.stdout}\n\nStderr:\n{error_msg}"
+            return False, f"Detection failed:\n{full_error[:2000]}", ""
             
     except Exception as e:
-        return False, f"Error running detection: {str(e)}", ""
+        import traceback
+        return False, f"Error running detection: {str(e)}\n\nTraceback:\n{traceback.format_exc()}", ""
 
 
 def load_events(events_file: str) -> pd.DataFrame:
@@ -165,6 +230,8 @@ def create_dashboard(events_file: str = None):
         st.session_state.data_folder = None
     if 'detection_running' not in st.session_state:
         st.session_state.detection_running = False
+    if 'folder_dialog_clicked' not in st.session_state:
+        st.session_state.folder_dialog_clicked = False
     
     # Title and header
     st.title("🛡️ Project Sentinel - Event Monitoring Dashboard")
@@ -187,8 +254,9 @@ def create_dashboard(events_file: str = None):
             # Selection method
             input_method = st.radio(
                 "Input Method",
-                ["Select from presets", "Enter custom path"],
-                horizontal=True
+                ["Select from presets", "Browse for folder"],
+                horizontal=True,
+                help="Choose how to select your data folder"
             )
             
             if input_method == "Select from presets":
@@ -199,18 +267,35 @@ def create_dashboard(events_file: str = None):
                     )
                     data_folder = default_paths[selected_preset]
                 else:
-                    st.warning("No preset data folders found. Please use custom path.")
-                    data_folder = st.text_input(
-                        "Data folder path",
-                        value=str(Path(__file__).parent.parent.parent / "data" / "input"),
-                        help="Enter the absolute path to your data folder"
-                    )
-            else:
-                data_folder = st.text_input(
-                    "Data folder path",
-                    value=st.session_state.data_folder or str(Path(__file__).parent.parent.parent / "data" / "input"),
-                    help="Enter the absolute path to your data folder containing CSV and JSONL files"
-                )
+                    st.warning("No preset data folders found. Please use another method.")
+                    data_folder = None
+                    
+            elif input_method == "Browse for folder":
+                st.markdown("**📁 Folder Picker**")
+                st.info("Click the button below to open a folder picker dialog.")
+                
+                # Show current selection if any
+                if st.session_state.data_folder:
+                    st.success(f"Current: `{st.session_state.data_folder}`")
+                
+                col_btn, col_clear = st.columns([3, 1])
+                
+                with col_btn:
+                    if st.button("📂 Open Folder Picker", type="primary", use_container_width=True):
+                        # Open folder dialog
+                        selected = open_folder_dialog()
+                        if selected:
+                            st.session_state.data_folder = selected
+                            st.rerun()
+                        else:
+                            st.warning("No folder selected")
+                
+                with col_clear:
+                    if st.button("🗑️ Clear", use_container_width=True):
+                        st.session_state.data_folder = None
+                        st.rerun()
+                
+                data_folder = st.session_state.data_folder
         
         with col2:
             st.markdown("**Dataset Type**")

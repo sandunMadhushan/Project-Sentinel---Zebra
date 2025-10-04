@@ -2,27 +2,23 @@
 PROJECT SENTINEL - EVENT DETECTION SUMMARY
 ======================================================================
 
-Total Events Detected: 231
-Unique Stations: 4
+Total Events Detected: 554
+Unique Stations: 5
 
 Event Distribution by ID:
 ----------------------------------------
-  E000: 80
-  E002: 26
-  E003: 8
-  E004: 64
-  E007: 14
-  E008: 38
-  E009: 1
+  E002: 228
+  E003: 9
+  E005: 117
+  E008: 195
+  E009: 5
 
 Event Distribution by Name:
 ----------------------------------------
-  Success Operation: 80
-  Unexpected Systems Crash: 64
-  Staffing Needs: 38
-  Barcode Switching: 26
-  Inventory Discrepancy: 14
-  Weight Discrepancies: 8
-  Checkout Station Action: 1
+  Barcode Switching: 228
+  Staffing Needs: 195
+  Long Queue Length: 117
+  Weight Discrepancies: 9
+  Checkout Station Action: 5
 
 ======================================================================

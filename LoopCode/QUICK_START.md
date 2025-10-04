@@ -1,6 +1,6 @@
 # QuGenerate realistic test data to see all algorithms in action:
 
-```bash
+````bash
 cd LoopCode_sentinel/tools
 python generate_test_data.py
 
@@ -20,7 +20,7 @@ python generate_test_data.py
 # Run detection on generated data
 cd ../evidence/executables
 python run_demo.py --data-dir ../../tools/generated_test_data --dataset-type test
-```
+````
 
 This generates 100+ transactions with multiple fraud scenarios, queue patterns, and inventory issues.
 
@@ -62,6 +62,7 @@ python run_demo.py --data-dir ../../tools/generated_test_data --launch-dashboard
 ## What Gets Created
 
 After running, you'll have:
+
 - `results/events.jsonl` - Main output file
 - `results/summary_report.txt` - Statistical summary
 - `evidence/output/test/events.jsonl` - Copy for judges
@@ -69,6 +70,7 @@ After running, you'll have:
 ## Troubleshooting
 
 If you get import errors, run from the executables directory:
+
 ```bash
 cd evidence/executables
 python run_demo.py --data-dir ../../../data/input

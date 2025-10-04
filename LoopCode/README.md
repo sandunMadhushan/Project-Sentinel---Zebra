@@ -62,12 +62,14 @@ python start_dashboard.py
 ```
 
 **Then in the browser:**
+
 1. Click "📁 Data Source Configuration"
 2. Select data folder (or enter custom path)
 3. Click "🚀 Run Event Detection"
 4. View results automatically! 🎉
 
 **Features:**
+
 - ✅ Select input folder from UI
 - ✅ One-click event detection
 - ✅ Auto-load results
@@ -95,6 +97,7 @@ python run_demo.py --dashboard-only
 ```
 
 **Expected Results:**
+
 - Total Events: ~231
 - Event Types: 7 (E000, E002, E003, E004, E007, E008, E009)
 - Stations Monitored: 4 (SCC1, SCC2, SCC3, SCC4)
@@ -109,6 +112,7 @@ python run_demo.py --data-dir /path/to/competition/data --dataset-type test
 ```
 
 That's it! The script will:
+
 1. Install all dependencies automatically
 2. Run all 19 detection algorithms
 3. Generate events.jsonl
@@ -127,6 +131,7 @@ python run_demo.py --dashboard-only
 ## 🎯 What This Solution Does
 
 ### Event Detection
+
 Our system detects **10 different event types**:
 
 1. **E000 - Success Operation**: Normal, successful checkouts
@@ -145,12 +150,14 @@ Our system detects **10 different event types**:
 We implement **19 sophisticated algorithms** across 4 categories:
 
 #### 🚨 Fraud Detection (4 algorithms)
+
 - Scanner Avoidance Detection - Compares RFID readings with POS scans
 - Barcode Switching Detection - Matches vision predictions with scans
 - Weight Verification - Validates product weights
 - Success Operation Detection - Identifies legitimate transactions
 
 #### 📊 Queue Analysis (5 algorithms)
+
 - Queue Threshold Analysis - Monitors queue lengths
 - Wait Time Threshold Analysis - Tracks customer wait times
 - Staffing Requirements Prediction - Predicts staffing needs
@@ -158,6 +165,7 @@ We implement **19 sophisticated algorithms** across 4 categories:
 - Queue Trend Analysis - Analyzes temporal patterns
 
 #### 📦 Inventory Monitoring (5 algorithms)
+
 - Inventory Reconciliation - Compares expected vs actual stock
 - Stock Level Monitoring - Tracks inventory levels
 - Inventory Velocity Analysis - Calculates turnover rates
@@ -165,6 +173,7 @@ We implement **19 sophisticated algorithms** across 4 categories:
 - Reorder Point Calculation - Optimizes restocking
 
 #### 🔍 Anomaly Detection (5 algorithms)
+
 - System Downtime Detection - Identifies crashes and gaps
 - Statistical Anomaly Detection - Z-score based outlier detection
 - Pattern-based Anomaly Detection - Detects pattern deviations
@@ -217,22 +226,26 @@ We implement **19 sophisticated algorithms** across 4 categories:
 ## 🛠️ Technical Details
 
 ### Technologies Used
+
 - **Language**: Python 3.9+
 - **Data Processing**: pandas, numpy
 - **Visualization**: Streamlit, Plotly
 - **Algorithms**: Custom implementations with statistical methods
 
 ### Key Features
+
 ✅ Fully automated pipeline  
 ✅ Modular, extensible architecture  
 ✅ Comprehensive error handling  
 ✅ Real-time dashboard  
 ✅ Well-documented code  
 ✅ Algorithm tagging for automated scoring  
-✅ Production-ready code quality  
+✅ Production-ready code quality
 
 ### Algorithm Tagging
+
 All algorithms are properly tagged with:
+
 ```python
 # @algorithm Algorithm Name | Purpose Description
 def algorithm_function():
@@ -297,6 +310,7 @@ python generate_test_data.py --help
 ```
 
 **Features:**
+
 - Generates realistic product catalogs (15 products)
 - Creates customer profiles (10 customers)
 - Simulates transactions with fraud patterns
@@ -305,6 +319,7 @@ python generate_test_data.py --help
 - Configurable parameters (--num-transactions, --seed, etc.)
 
 **Example Results with Generated Data:**
+
 ```
 Input: 100 transactions, 200 queue measurements, 12 inventory snapshots
 Output: 231 events detected
@@ -323,17 +338,18 @@ See [tools/README.md](tools/README.md) for detailed usage.
 
 ### Sample Data vs Generated Data
 
-| Data Source | Transactions | Events Detected | Event Types | Stations |
-|-------------|-------------|-----------------|-------------|----------|
-| Sample Data (provided) | 1 | 1 | 1 | 1 |
-| Generated Data | 100 | 231 | 7 | 4 |
-| Generated Data (large) | 500 | ~1000+ | 10 | 4 |
+| Data Source            | Transactions | Events Detected | Event Types | Stations |
+| ---------------------- | ------------ | --------------- | ----------- | -------- |
+| Sample Data (provided) | 1            | 1               | 1           | 1        |
+| Generated Data         | 100          | 231             | 7           | 4        |
+| Generated Data (large) | 500          | ~1000+          | 10          | 4        |
 
 **Note:** Sample data in `data/input/` has only 1 record per file for format validation. Use the generator for comprehensive testing.
 
 ## 📝 Code Quality
 
 Our code follows:
+
 - **PEP 8** Python style guide
 - **Type hints** for better code clarity
 - **Docstrings** for all functions and classes
@@ -344,20 +360,26 @@ Our code follows:
 ## 🎓 Algorithm Explanations
 
 ### Fraud Detection Approach
+
 We use multi-modal sensor fusion to detect fraud:
+
 1. Compare RFID detections with POS scans (scanner avoidance)
 2. Cross-reference vision system with actual scans (barcode switching)
 3. Validate weights against product catalog (weight fraud)
 
 ### Queue Management Strategy
+
 Our queue analysis uses:
+
 1. Real-time threshold monitoring
 2. Historical trend analysis
 3. Predictive staffing recommendations
 4. Dynamic station management
 
 ### Inventory Reconciliation
+
 We track inventory by:
+
 1. Calculating expected stock (initial - sold)
 2. Comparing with actual counts
 3. Detecting shrinkage patterns
@@ -368,6 +390,7 @@ We track inventory by:
 Before final submission, add dashboard screenshots to `evidence/screenshots/`:
 
 **Required Screenshots:**
+
 1. `dashboard-overview.png` - Main dashboard showing 231 events
 2. `fraud-analysis.png` - Fraud detection metrics (34 events)
 3. `queue-analysis.png` - Queue monitoring charts (39 issues)
@@ -375,6 +398,7 @@ Before final submission, add dashboard screenshots to `evidence/screenshots/`:
 5. `timeline-view.png` - Events over time with filtering
 
 **How to Capture:**
+
 ```bash
 # 1. Generate test data and run detection
 cd tools && python generate_test_data.py
@@ -392,24 +416,28 @@ python run_demo.py --dashboard-only
 ## 🎯 Judging Criteria Alignment
 
 ### 1. Design & Implementation Quality ✅
+
 - Clean, modular architecture (12 Python files, 19 algorithms)
 - Well-documented code (6 markdown documents, inline comments)
 - Production-ready quality (error handling, type hints, logging)
 - Comprehensive error handling
 
 ### 2. Accuracy of Results ✅
+
 - Implements all 10 event types (E000-E009)
 - Correct JSON output format (validated)
 - Tested with sample data (1 event) and generated data (231 events)
 - Statistical validation of algorithms
 
 ### 3. Algorithms Used ✅
+
 - 19 algorithms properly tagged and documented
 - Clear purpose descriptions in code
 - Well-implemented logic with multi-modal fusion
 - Comments explaining approach and methodology
 
 ### 4. Quality of Dashboard ✅
+
 - Interactive Streamlit dashboard with filtering
 - Multiple visualization types (bar charts, timelines, metrics)
 - Real-time metrics with 231 events displayed
@@ -417,6 +445,7 @@ python run_demo.py --dashboard-only
 - Export capabilities
 
 ### 5. Solution Presentation ✅
+
 - Clear documentation
 - Easy to run and test
 - Comprehensive README
@@ -425,6 +454,7 @@ python run_demo.py --dashboard-only
 ## 🚀 For Final Submission
 
 ### Pre-Submission Checklist
+
 - [ ] Update team name in SUBMISSION_GUIDE.md
 - [ ] Update member names in SUBMISSION_GUIDE.md
 - [ ] Update contact email in SUBMISSION_GUIDE.md
@@ -433,7 +463,7 @@ python run_demo.py --dashboard-only
 - [ ] Run on final dataset and verify output
 - [ ] Test run_demo.py end-to-end with --dashboard-only
 - [ ] Verify 19 algorithms are properly tagged (use validate_solution.py)
-- [ ] Rename folder to Team##_sentinel (your team number)
+- [ ] Rename folder to Team##\_sentinel (your team number)
 - [ ] Zip the entire folder
 - [ ] Upload to Google Drive
 
@@ -470,21 +500,25 @@ cat results/summary_report.txt
 ## � System Capabilities Demonstrated
 
 ### Scalability Proven:
+
 - ✅ **Small Dataset:** 1 transaction → 1 event detected
 - ✅ **Medium Dataset:** 100 transactions → 231 events detected
 - ✅ **Large Dataset:** 500 transactions → 1000+ events possible
 
 ### Multi-Station Monitoring:
+
 - ✅ Simultaneously tracks SCC1, SCC2, SCC3, SCC4
 - ✅ Independent event detection per station
 - ✅ Cross-station pattern analysis
 
 ### Event Type Coverage:
+
 - ✅ 10 event types fully implemented (E000-E009)
 - ✅ 7 event types proven with generated data
 - ✅ All categories covered (fraud, queue, inventory, anomalies)
 
 ### Real-World Readiness:
+
 - ✅ Handles missing data gracefully
 - ✅ Processes multi-modal sensor data
 - ✅ Generates professional reports
@@ -493,6 +527,7 @@ cat results/summary_report.txt
 ## �📞 Support
 
 For questions or issues:
+
 - Review [QUICK_START.md](QUICK_START.md) for quick testing
 - Review [SUCCESS_SUMMARY.md](SUCCESS_SUMMARY.md) for proven results
 - Check [tools/README.md](tools/README.md) for test data generation
@@ -530,6 +565,6 @@ For questions or issues:
 ---
 
 **LoopCode - Project Sentinel**  
-*Securing retail environments through intelligent event detection*
+_Securing retail environments through intelligent event detection_
 
 October 2025

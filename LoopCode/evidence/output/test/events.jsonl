@@ -1,231 +1,554 @@
-{"timestamp": "2025-10-04T09:00:00", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC1", "customer_id": "C010", "product_sku": "PRD_009"}}
-{"timestamp": "2025-10-04T09:00:00", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
-{"timestamp": "2025-10-04T09:00:55", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC4", "customer_id": "C009", "product_sku": "PRD_011"}}
-{"timestamp": "2025-10-04T09:01:00", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC4", "duration_seconds": 120}}
-{"timestamp": "2025-10-04T09:01:42", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC2", "customer_id": "C001", "product_sku": "PRD_005"}}
-{"timestamp": "2025-10-04T09:02:13", "event_id": "E003", "event_data": {"event_name": "Weight Discrepancies", "station_id": "SCC2", "customer_id": "C003", "product_sku": "PRD_005", "expected_weight": 1800, "actual_weight": 782}}
-{"timestamp": "2025-10-04T09:02:28", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC3", "customer_id": "C002", "product_sku": "PRD_007"}}
-{"timestamp": "2025-10-04T09:02:30", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC1", "duration_seconds": 210}}
-{"timestamp": "2025-10-04T09:03:16", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC4", "customer_id": "C001", "product_sku": "PRD_005"}}
-{"timestamp": "2025-10-04T09:03:30", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC4", "Staff_type": "Cashier"}}
-{"timestamp": "2025-10-04T09:04:30", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC4", "Staff_type": "Cashier"}}
-{"timestamp": "2025-10-04T09:04:51", "event_id": "E003", "event_data": {"event_name": "Weight Discrepancies", "station_id": "SCC3", "customer_id": "C004", "product_sku": "PRD_011", "expected_weight": 38, "actual_weight": 24}}
-{"timestamp": "2025-10-04T09:05:00", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC4", "Staff_type": "Cashier"}}
-{"timestamp": "2025-10-04T09:05:07", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC4", "customer_id": "C005", "product_sku": "PRD_007"}}
-{"timestamp": "2025-10-04T09:05:40", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC3", "customer_id": "C006", "product_sku": "PRD_003"}}
-{"timestamp": "2025-10-04T09:06:00", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC1", "duration_seconds": 171}}
-{"timestamp": "2025-10-04T09:06:07", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC2", "customer_id": "C002", "product_sku": "PRD_012"}}
-{"timestamp": "2025-10-04T09:06:32", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC4", "customer_id": "C008", "product_sku": "PRD_003"}}
-{"timestamp": "2025-10-04T09:07:00", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC3", "Staff_type": "Cashier"}}
-{"timestamp": "2025-10-04T09:07:22", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC2", "customer_id": "C009", "product_sku": "PRD_012"}}
-{"timestamp": "2025-10-04T09:08:21", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC2", "customer_id": "C001", "product_sku": "PRD_013"}}
-{"timestamp": "2025-10-04T09:08:51", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC1", "customer_id": "C005", "product_sku": "PRD_007"}}
-{"timestamp": "2025-10-04T09:09:00", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC3", "Staff_type": "Cashier"}}
-{"timestamp": "2025-10-04T09:09:37", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC2", "customer_id": "C006", "product_sku": "PRD_015"}}
-{"timestamp": "2025-10-04T09:10:12", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC2", "customer_id": "C008", "product_sku": "PRD_015"}}
-{"timestamp": "2025-10-04T09:10:12", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC2", "duration_seconds": 198}}
-{"timestamp": "2025-10-04T09:10:30", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
-{"timestamp": "2025-10-04T09:11:14", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC4", "customer_id": "C010", "product_sku": "PRD_015"}}
-{"timestamp": "2025-10-04T09:11:49", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC4", "customer_id": "C003", "product_sku": "PRD_003"}}
-{"timestamp": "2025-10-04T09:12:23", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC4", "customer_id": "C010", "product_sku": "PRD_007"}}
-{"timestamp": "2025-10-04T09:12:23", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC4", "duration_seconds": 217}}
-{"timestamp": "2025-10-04T09:13:00", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
-{"timestamp": "2025-10-04T09:13:08", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC1", "customer_id": "C001", "product_sku": "PRD_014"}}
-{"timestamp": "2025-10-04T09:13:52", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC3", "customer_id": "C005", "product_sku": "PRD_013"}}
-{"timestamp": "2025-10-04T09:14:29", "event_id": "E003", "event_data": {"event_name": "Weight Discrepancies", "station_id": "SCC1", "customer_id": "C008", "product_sku": "PRD_003", "expected_weight": 250, "actual_weight": 162}}
-{"timestamp": "2025-10-04T09:14:30", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC2", "Staff_type": "Cashier"}}
-{"timestamp": "2025-10-04T09:14:55", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC1", "customer_id": "C003", "product_sku": "PRD_009"}}
-{"timestamp": "2025-10-04T09:15:00", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC3", "Staff_type": "Cashier"}}
-{"timestamp": "2025-10-04T09:15:24", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC2", "customer_id": "C009", "product_sku": "PRD_014"}}
-{"timestamp": "2025-10-04T09:15:24", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC2", "duration_seconds": 126}}
-{"timestamp": "2025-10-04T09:16:00", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC4", "duration_seconds": 180}}
-{"timestamp": "2025-10-04T09:16:22", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC1", "customer_id": "C009", "product_sku": "PRD_003"}}
-{"timestamp": "2025-10-04T09:17:03", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC3", "customer_id": "C002", "product_sku": "PRD_001"}}
-{"timestamp": "2025-10-04T09:17:32", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC2", "customer_id": "C001", "product_sku": "PRD_004"}}
-{"timestamp": "2025-10-04T09:17:47", "event_id": "E003", "event_data": {"event_name": "Weight Discrepancies", "station_id": "SCC1", "customer_id": "C008", "product_sku": "PRD_002", "expected_weight": 168, "actual_weight": 86}}
-{"timestamp": "2025-10-04T09:18:05", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC2", "customer_id": "C008", "product_sku": "PRD_003"}}
-{"timestamp": "2025-10-04T09:18:30", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC1", "duration_seconds": 129}}
-{"timestamp": "2025-10-04T09:19:28", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC4", "customer_id": "C006", "product_sku": "PRD_011"}}
-{"timestamp": "2025-10-04T09:19:30", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC3", "Staff_type": "Cashier"}}
-{"timestamp": "2025-10-04T09:20:06", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC2", "customer_id": "C004", "product_sku": "PRD_002"}}
-{"timestamp": "2025-10-04T09:20:17", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC2", "customer_id": "C009", "product_sku": "PRD_010"}}
-{"timestamp": "2025-10-04T09:20:27", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC2", "customer_id": "C001", "product_sku": "PRD_002"}}
-{"timestamp": "2025-10-04T09:20:39", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC1", "customer_id": "C006", "product_sku": "PRD_014"}}
-{"timestamp": "2025-10-04T09:21:00", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC3", "Staff_type": "Cashier"}}
-{"timestamp": "2025-10-04T09:21:06", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC2", "customer_id": "C008", "product_sku": "PRD_011"}}
-{"timestamp": "2025-10-04T09:22:00", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC3", "duration_seconds": 210}}
-{"timestamp": "2025-10-04T09:22:02", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC4", "customer_id": "C010", "product_sku": "PRD_015"}}
-{"timestamp": "2025-10-04T09:22:30", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC1", "duration_seconds": 120}}
-{"timestamp": "2025-10-04T09:22:42", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC2", "customer_id": "C007", "product_sku": "PRD_013"}}
-{"timestamp": "2025-10-04T09:23:34", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC4", "customer_id": "C006", "product_sku": "PRD_007"}}
-{"timestamp": "2025-10-04T09:24:00", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC4", "Staff_type": "Cashier"}}
-{"timestamp": "2025-10-04T09:24:30", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC1", "duration_seconds": 159}}
-{"timestamp": "2025-10-04T09:25:00", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC4", "Staff_type": "Cashier"}}
-{"timestamp": "2025-10-04T09:25:01", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC2", "customer_id": "C002", "product_sku": "PRD_013"}}
-{"timestamp": "2025-10-04T09:25:45", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC4", "customer_id": "C003", "product_sku": "PRD_008"}}
-{"timestamp": "2025-10-04T09:26:24", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC4", "customer_id": "C002", "product_sku": "PRD_004"}}
-{"timestamp": "2025-10-04T09:27:00", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC3", "Staff_type": "Cashier"}}
-{"timestamp": "2025-10-04T09:27:09", "event_id": "E003", "event_data": {"event_name": "Weight Discrepancies", "station_id": "SCC1", "customer_id": "C001", "product_sku": "PRD_002", "expected_weight": 168, "actual_weight": 112}}
-{"timestamp": "2025-10-04T09:27:34", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC4", "customer_id": "C007", "product_sku": "PRD_003"}}
-{"timestamp": "2025-10-04T09:28:09", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC2", "customer_id": "C001", "product_sku": "PRD_015"}}
-{"timestamp": "2025-10-04T09:28:43", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC3", "customer_id": "C008", "product_sku": "PRD_005"}}
-{"timestamp": "2025-10-04T09:28:43", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC3", "duration_seconds": 236}}
-{"timestamp": "2025-10-04T09:29:39", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC4", "customer_id": "C009", "product_sku": "PRD_013"}}
-{"timestamp": "2025-10-04T09:29:39", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC4", "customer_id": "C009", "actual_sku": "PRD_001", "scanned_sku": "PRD_013"}}
-{"timestamp": "2025-10-04T09:30:20", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC4", "customer_id": "C010", "actual_sku": "PRD_005", "scanned_sku": "PRD_001"}}
-{"timestamp": "2025-10-04T09:30:20", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC4", "duration_seconds": 246}}
-{"timestamp": "2025-10-04T09:30:30", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC2", "Staff_type": "Cashier"}}
-{"timestamp": "2025-10-04T09:31:03", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC1", "customer_id": "C001", "product_sku": "PRD_003"}}
-{"timestamp": "2025-10-04T09:31:03", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C001", "actual_sku": "PRD_004", "scanned_sku": "PRD_003"}}
-{"timestamp": "2025-10-04T09:31:17", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC2", "customer_id": "C002", "product_sku": "PRD_010"}}
-{"timestamp": "2025-10-04T09:32:03", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC1", "customer_id": "C010", "product_sku": "PRD_004"}}
-{"timestamp": "2025-10-04T09:32:03", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C010", "actual_sku": "PRD_015", "scanned_sku": "PRD_004"}}
-{"timestamp": "2025-10-04T09:32:39", "event_id": "E003", "event_data": {"event_name": "Weight Discrepancies", "station_id": "SCC3", "customer_id": "C010", "product_sku": "PRD_011", "expected_weight": 38, "actual_weight": 14}}
-{"timestamp": "2025-10-04T09:33:00", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC1", "duration_seconds": 120}}
-{"timestamp": "2025-10-04T09:33:30", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC2", "Staff_type": "Cashier"}}
-{"timestamp": "2025-10-04T09:33:34", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC3", "customer_id": "C004", "product_sku": "PRD_006"}}
-{"timestamp": "2025-10-04T09:34:00", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC2", "duration_seconds": 130}}
-{"timestamp": "2025-10-04T09:34:26", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC4", "customer_id": "C005", "product_sku": "PRD_011"}}
-{"timestamp": "2025-10-04T09:34:26", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC4", "customer_id": "C005", "actual_sku": "PRD_009", "scanned_sku": "PRD_011"}}
-{"timestamp": "2025-10-04T09:34:30", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC4", "Staff_type": "Cashier"}}
-{"timestamp": "2025-10-04T09:35:24", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC1", "customer_id": "C002", "product_sku": "PRD_015"}}
-{"timestamp": "2025-10-04T09:35:30", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC3", "Staff_type": "Cashier"}}
-{"timestamp": "2025-10-04T09:35:30", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC3", "duration_seconds": 240}}
-{"timestamp": "2025-10-04T09:36:00", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC4", "Staff_type": "Cashier"}}
-{"timestamp": "2025-10-04T09:36:10", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC2", "customer_id": "C002", "product_sku": "PRD_002"}}
-{"timestamp": "2025-10-04T09:36:10", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC2", "duration_seconds": 151}}
-{"timestamp": "2025-10-04T09:36:28", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC1", "customer_id": "C006", "product_sku": "PRD_015"}}
-{"timestamp": "2025-10-04T09:36:28", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C006", "actual_sku": "PRD_005", "scanned_sku": "PRD_015"}}
-{"timestamp": "2025-10-04T09:36:30", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
-{"timestamp": "2025-10-04T09:37:01", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC4", "customer_id": "C003", "product_sku": "PRD_005"}}
-{"timestamp": "2025-10-04T09:37:01", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC4", "customer_id": "C003", "actual_sku": "PRD_004", "scanned_sku": "PRD_005"}}
-{"timestamp": "2025-10-04T09:37:56", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC1", "customer_id": "C010", "product_sku": "PRD_005"}}
-{"timestamp": "2025-10-04T09:37:56", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C010", "actual_sku": "PRD_015", "scanned_sku": "PRD_005"}}
-{"timestamp": "2025-10-04T09:38:00", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC4", "duration_seconds": 150}}
-{"timestamp": "2025-10-04T09:38:41", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC2", "customer_id": "C002", "product_sku": "PRD_005"}}
-{"timestamp": "2025-10-04T09:38:57", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC2", "customer_id": "C009", "product_sku": "PRD_012"}}
-{"timestamp": "2025-10-04T09:39:00", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC1", "duration_seconds": 120}}
-{"timestamp": "2025-10-04T09:39:45", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC2", "customer_id": "C006", "product_sku": "PRD_004"}}
-{"timestamp": "2025-10-04T09:40:11", "event_id": "E003", "event_data": {"event_name": "Weight Discrepancies", "station_id": "SCC3", "customer_id": "C008", "product_sku": "PRD_009", "expected_weight": 398, "actual_weight": 254}}
-{"timestamp": "2025-10-04T09:40:26", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC3", "customer_id": "C007", "product_sku": "PRD_011"}}
-{"timestamp": "2025-10-04T09:40:30", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC4", "duration_seconds": 120}}
-{"timestamp": "2025-10-04T09:40:57", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC3", "customer_id": "C003", "product_sku": "PRD_013"}}
-{"timestamp": "2025-10-04T09:40:57", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC3", "customer_id": "C003", "actual_sku": "PRD_006", "scanned_sku": "PRD_013"}}
-{"timestamp": "2025-10-04T09:40:57", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC3", "duration_seconds": 153}}
-{"timestamp": "2025-10-04T09:41:00", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
-{"timestamp": "2025-10-04T09:41:35", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC1", "customer_id": "C007", "product_sku": "PRD_009"}}
-{"timestamp": "2025-10-04T09:41:35", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C007", "actual_sku": "PRD_015", "scanned_sku": "PRD_009"}}
-{"timestamp": "2025-10-04T09:42:00", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC2", "duration_seconds": 166}}
-{"timestamp": "2025-10-04T09:42:29", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC1", "customer_id": "C003", "product_sku": "PRD_015"}}
-{"timestamp": "2025-10-04T09:42:29", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C003", "actual_sku": "PRD_006", "scanned_sku": "PRD_015"}}
-{"timestamp": "2025-10-04T09:43:16", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC4", "customer_id": "C003", "product_sku": "PRD_009"}}
-{"timestamp": "2025-10-04T09:43:16", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC4", "customer_id": "C003", "actual_sku": "PRD_005", "scanned_sku": "PRD_009"}}
-{"timestamp": "2025-10-04T09:43:45", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC3", "customer_id": "C001", "product_sku": "PRD_006"}}
-{"timestamp": "2025-10-04T09:43:45", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC3", "customer_id": "C001", "actual_sku": "PRD_011", "scanned_sku": "PRD_006"}}
-{"timestamp": "2025-10-04T09:44:00", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC4", "duration_seconds": 120}}
-{"timestamp": "2025-10-04T09:44:10", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC3", "customer_id": "C002", "actual_sku": "PRD_007", "scanned_sku": "PRD_011"}}
-{"timestamp": "2025-10-04T09:44:46", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC2", "customer_id": "C003", "product_sku": "PRD_010"}}
-{"timestamp": "2025-10-04T09:44:46", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC2", "customer_id": "C003", "actual_sku": "PRD_013", "scanned_sku": "PRD_010"}}
-{"timestamp": "2025-10-04T09:45:07", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC1", "customer_id": "C007", "product_sku": "PRD_015"}}
-{"timestamp": "2025-10-04T09:45:07", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C007", "actual_sku": "PRD_012", "scanned_sku": "PRD_015"}}
-{"timestamp": "2025-10-04T09:45:07", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC1", "duration_seconds": 233}}
-{"timestamp": "2025-10-04T09:45:38", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC2", "customer_id": "C007", "product_sku": "PRD_013"}}
-{"timestamp": "2025-10-04T09:45:38", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC2", "customer_id": "C007", "actual_sku": "PRD_014", "scanned_sku": "PRD_013"}}
-{"timestamp": "2025-10-04T09:46:38", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC4", "customer_id": "C002", "actual_sku": "PRD_004", "scanned_sku": "PRD_012"}}
-{"timestamp": "2025-10-04T09:47:18", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC4", "customer_id": "C004", "product_sku": "PRD_004"}}
-{"timestamp": "2025-10-04T09:47:18", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC4", "duration_seconds": 141}}
-{"timestamp": "2025-10-04T09:48:18", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC2", "customer_id": "C004", "product_sku": "PRD_014"}}
-{"timestamp": "2025-10-04T09:48:18", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC2", "customer_id": "C004", "actual_sku": "PRD_007", "scanned_sku": "PRD_014"}}
-{"timestamp": "2025-10-04T09:48:30", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC2", "duration_seconds": 120}}
-{"timestamp": "2025-10-04T09:48:40", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC3", "customer_id": "C006", "product_sku": "PRD_007"}}
-{"timestamp": "2025-10-04T09:48:40", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC3", "customer_id": "C006", "actual_sku": "PRD_003", "scanned_sku": "PRD_007"}}
-{"timestamp": "2025-10-04T09:49:00", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
-{"timestamp": "2025-10-04T09:49:39", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC4", "customer_id": "C006", "product_sku": "PRD_005"}}
-{"timestamp": "2025-10-04T09:50:23", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC1", "customer_id": "C001", "product_sku": "PRD_006"}}
-{"timestamp": "2025-10-04T09:50:49", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC3", "customer_id": "C010", "product_sku": "PRD_003"}}
-{"timestamp": "2025-10-04T09:51:00", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC4", "duration_seconds": 210}}
-{"timestamp": "2025-10-04T09:51:30", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC1", "duration_seconds": 120}}
-{"timestamp": "2025-10-04T09:51:37", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC3", "customer_id": "C006", "product_sku": "PRD_007"}}
-{"timestamp": "2025-10-04T09:51:37", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC3", "customer_id": "C006", "actual_sku": "PRD_011", "scanned_sku": "PRD_007"}}
-{"timestamp": "2025-10-04T09:52:19", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC2", "customer_id": "C007", "product_sku": "PRD_002"}}
-{"timestamp": "2025-10-04T09:52:19", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC2", "customer_id": "C007", "actual_sku": "PRD_007", "scanned_sku": "PRD_002"}}
-{"timestamp": "2025-10-04T09:53:00", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC3", "Staff_type": "Cashier"}}
-{"timestamp": "2025-10-04T09:53:14", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC2", "customer_id": "C001", "product_sku": "PRD_007"}}
-{"timestamp": "2025-10-04T09:53:14", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC2", "customer_id": "C001", "actual_sku": "PRD_005", "scanned_sku": "PRD_007"}}
-{"timestamp": "2025-10-04T09:53:28", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC3", "customer_id": "C006", "product_sku": "PRD_011"}}
-{"timestamp": "2025-10-04T09:53:28", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC3", "customer_id": "C006", "actual_sku": "PRD_012", "scanned_sku": "PRD_011"}}
-{"timestamp": "2025-10-04T09:53:45", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC3", "customer_id": "C005", "product_sku": "PRD_012"}}
-{"timestamp": "2025-10-04T09:53:45", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC3", "customer_id": "C005", "actual_sku": "PRD_011", "scanned_sku": "PRD_012"}}
-{"timestamp": "2025-10-04T09:54:15", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC2", "customer_id": "C005", "product_sku": "PRD_007"}}
-{"timestamp": "2025-10-04T09:54:15", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC2", "customer_id": "C005", "actual_sku": "PRD_001", "scanned_sku": "PRD_007"}}
-{"timestamp": "2025-10-04T09:55:07", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC3", "customer_id": "C003", "product_sku": "PRD_007"}}
-{"timestamp": "2025-10-04T09:55:17", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC2", "customer_id": "C005", "product_sku": "PRD_005"}}
-{"timestamp": "2025-10-04T09:55:17", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC2", "duration_seconds": 133}}
-{"timestamp": "2025-10-04T09:56:00", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC3", "Staff_type": "Cashier"}}
-{"timestamp": "2025-10-04T09:56:04", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC4", "customer_id": "C006", "product_sku": "PRD_010"}}
-{"timestamp": "2025-10-04T09:57:30", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC2", "duration_seconds": 137}}
-{"timestamp": "2025-10-04T09:57:57", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC1", "duration_seconds": 123}}
-{"timestamp": "2025-10-04T09:58:49", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC3", "customer_id": "C010", "product_sku": "PRD_011"}}
-{"timestamp": "2025-10-04T09:59:00", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC4", "Staff_type": "Cashier"}}
-{"timestamp": "2025-10-04T09:59:00", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC4", "duration_seconds": 120}}
-{"timestamp": "2025-10-04T09:59:30", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC3", "duration_seconds": 180}}
-{"timestamp": "2025-10-04T09:59:47", "event_id": "E000", "event_data": {"event_name": "Success Operation", "station_id": "SCC2", "customer_id": "C005", "product_sku": "PRD_004"}}
-{"timestamp": "2025-10-04T10:00:06", "event_id": "E003", "event_data": {"event_name": "Weight Discrepancies", "station_id": "SCC2", "customer_id": "C001", "product_sku": "PRD_001", "expected_weight": 174, "actual_weight": 94}}
-{"timestamp": "2025-10-04T10:00:30", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC1", "duration_seconds": 150}}
-{"timestamp": "2025-10-04T10:01:30", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC4", "duration_seconds": 120}}
-{"timestamp": "2025-10-04T10:02:00", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC2", "Staff_type": "Cashier"}}
-{"timestamp": "2025-10-04T10:02:00", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC2", "duration_seconds": 150}}
-{"timestamp": "2025-10-04T10:03:00", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC1", "duration_seconds": 120}}
-{"timestamp": "2025-10-04T10:03:30", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC4", "Staff_type": "Cashier"}}
-{"timestamp": "2025-10-04T10:03:30", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC4", "duration_seconds": 240}}
-{"timestamp": "2025-10-04T10:05:00", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
-{"timestamp": "2025-10-04T10:05:00", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC1", "duration_seconds": 240}}
-{"timestamp": "2025-10-04T10:06:30", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC3", "duration_seconds": 120}}
-{"timestamp": "2025-10-04T10:07:00", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC2", "duration_seconds": 360}}
-{"timestamp": "2025-10-04T10:08:00", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC4", "Staff_type": "Cashier"}}
-{"timestamp": "2025-10-04T10:08:00", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC4", "duration_seconds": 150}}
-{"timestamp": "2025-10-04T10:09:00", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC1", "duration_seconds": 150}}
-{"timestamp": "2025-10-04T10:10:00", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC3", "Staff_type": "Cashier"}}
-{"timestamp": "2025-10-04T10:11:00", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC3", "duration_seconds": 180}}
-{"timestamp": "2025-10-04T10:11:30", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
-{"timestamp": "2025-10-04T10:12:00", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC4", "duration_seconds": 180}}
-{"timestamp": "2025-10-04T10:12:30", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC1", "duration_seconds": 420}}
-{"timestamp": "2025-10-04T10:14:00", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC3", "duration_seconds": 120}}
-{"timestamp": "2025-10-04T10:15:00", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC4", "duration_seconds": 150}}
-{"timestamp": "2025-10-04T10:15:30", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC2", "duration_seconds": 150}}
-{"timestamp": "2025-10-04T10:16:30", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC3", "Staff_type": "Cashier"}}
-{"timestamp": "2025-10-04T10:17:00", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC3", "duration_seconds": 180}}
-{"timestamp": "2025-10-04T10:18:30", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC2", "duration_seconds": 180}}
-{"timestamp": "2025-10-04T10:19:00", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC4", "duration_seconds": 180}}
-{"timestamp": "2025-10-04T10:20:00", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC3", "duration_seconds": 330}}
-{"timestamp": "2025-10-04T10:21:00", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC1", "duration_seconds": 120}}
-{"timestamp": "2025-10-04T10:22:00", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC4", "duration_seconds": 300}}
-{"timestamp": "2025-10-04T10:23:00", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
-{"timestamp": "2025-10-04T10:23:30", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC1", "duration_seconds": 390}}
-{"timestamp": "2025-10-04T10:24:00", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC2", "Staff_type": "Cashier"}}
-{"timestamp": "2025-10-04T10:26:00", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC3", "duration_seconds": 270}}
-{"timestamp": "2025-10-04T10:26:30", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC2", "duration_seconds": 120}}
-{"timestamp": "2025-10-04T10:28:00", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC4", "Staff_type": "Cashier"}}
-{"timestamp": "2025-10-04T10:29:00", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC2", "duration_seconds": 150}}
-{"timestamp": "2025-10-04T10:29:30", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC4", "duration_seconds": 450}}
-{"timestamp": "2025-10-04T10:30:00", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
-{"timestamp": "2025-10-04T10:30:00", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC1", "duration_seconds": 150}}
-{"timestamp": "2025-10-04T10:31:00", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC3", "duration_seconds": 120}}
-{"timestamp": "2025-10-04T10:32:00", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC2", "duration_seconds": 210}}
-{"timestamp": "2025-10-04T10:33:30", "event_id": "E004", "event_data": {"event_name": "Unexpected Systems Crash", "station_id": "SCC1", "duration_seconds": 150}}
-{"timestamp": "2025-10-04T10:39:00", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC4", "Staff_type": "Cashier"}}
-{"timestamp": "2025-10-04T10:39:00", "event_id": "E009", "event_data": {"event_name": "Checkout Station Action", "station_id": "SCC4", "Action": "Open"}}
-{"timestamp": "2025-10-04T20:00:00", "event_id": "E007", "event_data": {"event_name": "Inventory Discrepancy", "SKU": "PRD_001", "Expected_Inventory": 148, "Actual_Inventory": 208}}
-{"timestamp": "2025-10-04T20:00:00", "event_id": "E007", "event_data": {"event_name": "Inventory Discrepancy", "SKU": "PRD_002", "Expected_Inventory": 215, "Actual_Inventory": 189}}
-{"timestamp": "2025-10-04T20:00:00", "event_id": "E007", "event_data": {"event_name": "Inventory Discrepancy", "SKU": "PRD_003", "Expected_Inventory": 96, "Actual_Inventory": 134}}
-{"timestamp": "2025-10-04T20:00:00", "event_id": "E007", "event_data": {"event_name": "Inventory Discrepancy", "SKU": "PRD_004", "Expected_Inventory": 120, "Actual_Inventory": 33}}
-{"timestamp": "2025-10-04T20:00:00", "event_id": "E007", "event_data": {"event_name": "Inventory Discrepancy", "SKU": "PRD_005", "Expected_Inventory": 91, "Actual_Inventory": 182}}
-{"timestamp": "2025-10-04T20:00:00", "event_id": "E007", "event_data": {"event_name": "Inventory Discrepancy", "SKU": "PRD_006", "Expected_Inventory": 84, "Actual_Inventory": 45}}
-{"timestamp": "2025-10-04T20:00:00", "event_id": "E007", "event_data": {"event_name": "Inventory Discrepancy", "SKU": "PRD_007", "Expected_Inventory": 134, "Actual_Inventory": 102}}
-{"timestamp": "2025-10-04T20:00:00", "event_id": "E007", "event_data": {"event_name": "Inventory Discrepancy", "SKU": "PRD_008", "Expected_Inventory": 121, "Actual_Inventory": 166}}
-{"timestamp": "2025-10-04T20:00:00", "event_id": "E007", "event_data": {"event_name": "Inventory Discrepancy", "SKU": "PRD_009", "Expected_Inventory": 129, "Actual_Inventory": 102}}
-{"timestamp": "2025-10-04T20:00:00", "event_id": "E007", "event_data": {"event_name": "Inventory Discrepancy", "SKU": "PRD_011", "Expected_Inventory": 137, "Actual_Inventory": 186}}
-{"timestamp": "2025-10-04T20:00:00", "event_id": "E007", "event_data": {"event_name": "Inventory Discrepancy", "SKU": "PRD_012", "Expected_Inventory": 114, "Actual_Inventory": 156}}
-{"timestamp": "2025-10-04T20:00:00", "event_id": "E007", "event_data": {"event_name": "Inventory Discrepancy", "SKU": "PRD_013", "Expected_Inventory": 225, "Actual_Inventory": 169}}
-{"timestamp": "2025-10-04T20:00:00", "event_id": "E007", "event_data": {"event_name": "Inventory Discrepancy", "SKU": "PRD_014", "Expected_Inventory": 143, "Actual_Inventory": 117}}
-{"timestamp": "2025-10-04T20:00:00", "event_id": "E007", "event_data": {"event_name": "Inventory Discrepancy", "SKU": "PRD_015", "Expected_Inventory": 70, "Actual_Inventory": 30}}
+{"timestamp": "2025-08-13T16:00:30", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:00:35", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC1", "num_of_customers": 7}}
+{"timestamp": "2025-08-13T16:00:35", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:00:40", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC1", "num_of_customers": 7}}
+{"timestamp": "2025-08-13T16:00:40", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:00:45", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC1", "num_of_customers": 7}}
+{"timestamp": "2025-08-13T16:00:45", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:00:50", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC1", "num_of_customers": 6}}
+{"timestamp": "2025-08-13T16:00:50", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:00:55", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:01:00", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:01:15", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC2", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:02:10", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC3", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:04:30", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC1", "num_of_customers": 7}}
+{"timestamp": "2025-08-13T16:04:30", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:04:35", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC1", "num_of_customers": 6}}
+{"timestamp": "2025-08-13T16:04:35", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:04:40", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC1", "num_of_customers": 6}}
+{"timestamp": "2025-08-13T16:04:40", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:04:45", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:08:45", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C056", "actual_sku": "PRD_F_14", "scanned_sku": "PRD_A_05"}}
+{"timestamp": "2025-08-13T16:08:50", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C056", "actual_sku": "PRD_A_05", "scanned_sku": "PRD_B_03"}}
+{"timestamp": "2025-08-13T16:08:55", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C056", "actual_sku": "PRD_B_03", "scanned_sku": "PRD_C_02"}}
+{"timestamp": "2025-08-13T16:09:00", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C056", "actual_sku": "PRD_C_02", "scanned_sku": "PRD_F_08"}}
+{"timestamp": "2025-08-13T16:09:05", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C056", "actual_sku": "PRD_F_08", "scanned_sku": "PRD_H_01"}}
+{"timestamp": "2025-08-13T16:12:50", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C048", "actual_sku": "PRD_H_01", "scanned_sku": "PRD_T_03"}}
+{"timestamp": "2025-08-13T16:12:55", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C048", "actual_sku": "PRD_T_03", "scanned_sku": "PRD_S_05"}}
+{"timestamp": "2025-08-13T16:13:00", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C048", "actual_sku": "PRD_S_05", "scanned_sku": "PRD_F_06"}}
+{"timestamp": "2025-08-13T16:15:05", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC3", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:15:30", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:15:35", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:16:40", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C044", "actual_sku": "PRD_F_06", "scanned_sku": "PRD_S_05"}}
+{"timestamp": "2025-08-13T16:16:40", "event_id": "E003", "event_data": {"event_name": "Weight Discrepancies", "station_id": "SCC1", "customer_id": "C044", "product_sku": "PRD_S_05", "expected_weight": 1500, "actual_weight": 913}}
+{"timestamp": "2025-08-13T16:17:20", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C006", "actual_sku": "PRD_S_05", "scanned_sku": "PRD_H_05"}}
+{"timestamp": "2025-08-13T16:17:25", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C006", "actual_sku": "PRD_H_05", "scanned_sku": "PRD_F_11"}}
+{"timestamp": "2025-08-13T16:17:30", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C006", "actual_sku": "PRD_F_11", "scanned_sku": "PRD_F_04"}}
+{"timestamp": "2025-08-13T16:17:30", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C025", "actual_sku": "PRD_F_04", "scanned_sku": "PRD_V_05"}}
+{"timestamp": "2025-08-13T16:17:40", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C006", "actual_sku": "PRD_F_10", "scanned_sku": "PRD_S_01"}}
+{"timestamp": "2025-08-13T16:17:55", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C014", "actual_sku": "PRD_S_01", "scanned_sku": "PRD_A_01"}}
+{"timestamp": "2025-08-13T16:18:00", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C014", "actual_sku": "PRD_A_01", "scanned_sku": "PRD_F_01"}}
+{"timestamp": "2025-08-13T16:18:05", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C014", "actual_sku": "PRD_F_01", "scanned_sku": "PRD_A_05"}}
+{"timestamp": "2025-08-13T16:18:10", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C014", "actual_sku": "PRD_A_05", "scanned_sku": "PRD_C_01"}}
+{"timestamp": "2025-08-13T16:18:10", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC2", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:18:15", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC2", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:18:30", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C053", "actual_sku": "PRD_C_01", "scanned_sku": "PRD_H_02"}}
+{"timestamp": "2025-08-13T16:18:35", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C053", "actual_sku": "PRD_H_02", "scanned_sku": "PRD_A_02"}}
+{"timestamp": "2025-08-13T16:18:40", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C053", "actual_sku": "PRD_A_02", "scanned_sku": "PRD_H_04"}}
+{"timestamp": "2025-08-13T16:18:45", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C053", "actual_sku": "PRD_H_04", "scanned_sku": "PRD_S_03"}}
+{"timestamp": "2025-08-13T16:18:50", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C053", "actual_sku": "PRD_S_03", "scanned_sku": "PRD_S_04"}}
+{"timestamp": "2025-08-13T16:19:00", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC3", "num_of_customers": 6}}
+{"timestamp": "2025-08-13T16:19:00", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC3", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:19:05", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC3", "num_of_customers": 6}}
+{"timestamp": "2025-08-13T16:19:05", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC3", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:19:10", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC3", "num_of_customers": 6}}
+{"timestamp": "2025-08-13T16:19:10", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC3", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:19:15", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC3", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:20:25", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C019", "actual_sku": "PRD_S_04", "scanned_sku": "PRD_V_05"}}
+{"timestamp": "2025-08-13T16:20:30", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C019", "actual_sku": "PRD_V_05", "scanned_sku": "PRD_A_02"}}
+{"timestamp": "2025-08-13T16:20:35", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C019", "actual_sku": "PRD_A_02", "scanned_sku": "PRD_F_13"}}
+{"timestamp": "2025-08-13T16:21:30", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C002", "actual_sku": "PRD_F_13", "scanned_sku": "PRD_T_01"}}
+{"timestamp": "2025-08-13T16:21:35", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C002", "actual_sku": "PRD_T_01", "scanned_sku": "PRD_C_01"}}
+{"timestamp": "2025-08-13T16:21:40", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C002", "actual_sku": "PRD_C_01", "scanned_sku": "PRD_C_02"}}
+{"timestamp": "2025-08-13T16:23:15", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C009", "actual_sku": "PRD_C_02", "scanned_sku": "PRD_F_06"}}
+{"timestamp": "2025-08-13T16:23:25", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C009", "actual_sku": "PRD_F_06", "scanned_sku": "PRD_T_03"}}
+{"timestamp": "2025-08-13T16:23:30", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C009", "actual_sku": "PRD_T_05", "scanned_sku": "PRD_B_05"}}
+{"timestamp": "2025-08-13T16:23:35", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C009", "actual_sku": "PRD_T_03", "scanned_sku": "PRD_V_03"}}
+{"timestamp": "2025-08-13T16:23:40", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C009", "actual_sku": "PRD_B_05", "scanned_sku": "PRD_T_04"}}
+{"timestamp": "2025-08-13T16:23:50", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C026", "actual_sku": "PRD_V_03", "scanned_sku": "PRD_S_04"}}
+{"timestamp": "2025-08-13T16:23:55", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC1", "num_of_customers": 8}}
+{"timestamp": "2025-08-13T16:23:55", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Manager"}}
+{"timestamp": "2025-08-13T16:24:00", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC1", "num_of_customers": 7}}
+{"timestamp": "2025-08-13T16:24:00", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:24:05", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC1", "num_of_customers": 6}}
+{"timestamp": "2025-08-13T16:24:05", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:24:10", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC1", "num_of_customers": 6}}
+{"timestamp": "2025-08-13T16:24:10", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:24:15", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC1", "num_of_customers": 6}}
+{"timestamp": "2025-08-13T16:24:15", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:24:20", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:24:45", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC2", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:24:50", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC2", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:25:05", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:25:45", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C018", "actual_sku": "PRD_T_04", "scanned_sku": "PRD_F_13"}}
+{"timestamp": "2025-08-13T16:26:45", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C028", "actual_sku": "PRD_H_02", "scanned_sku": "PRD_T_03"}}
+{"timestamp": "2025-08-13T16:26:50", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C028", "actual_sku": "PRD_V_01", "scanned_sku": "PRD_H_01"}}
+{"timestamp": "2025-08-13T16:26:55", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C028", "actual_sku": "PRD_T_03", "scanned_sku": "PRD_F_08"}}
+{"timestamp": "2025-08-13T16:28:05", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C033", "actual_sku": "PRD_H_01", "scanned_sku": "PRD_V_05"}}
+{"timestamp": "2025-08-13T16:28:10", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C033", "actual_sku": "PRD_F_08", "scanned_sku": "PRD_T_05"}}
+{"timestamp": "2025-08-13T16:28:30", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C011", "actual_sku": "PRD_V_05", "scanned_sku": "PRD_F_14"}}
+{"timestamp": "2025-08-13T16:28:35", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C011", "actual_sku": "PRD_T_05", "scanned_sku": "PRD_C_02"}}
+{"timestamp": "2025-08-13T16:28:40", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C011", "actual_sku": "PRD_F_14", "scanned_sku": "PRD_F_11"}}
+{"timestamp": "2025-08-13T16:28:45", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C011", "actual_sku": "PRD_C_02", "scanned_sku": "PRD_A_01"}}
+{"timestamp": "2025-08-13T16:28:50", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C011", "actual_sku": "PRD_F_11", "scanned_sku": "PRD_F_02"}}
+{"timestamp": "2025-08-13T16:28:55", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C011", "actual_sku": "PRD_A_01", "scanned_sku": "PRD_A_02"}}
+{"timestamp": "2025-08-13T16:31:35", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C056", "actual_sku": "PRD_F_02", "scanned_sku": "PRD_F_15"}}
+{"timestamp": "2025-08-13T16:31:40", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C056", "actual_sku": "PRD_A_02", "scanned_sku": "PRD_V_01"}}
+{"timestamp": "2025-08-13T16:31:45", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C056", "actual_sku": "PRD_F_15", "scanned_sku": "PRD_C_03"}}
+{"timestamp": "2025-08-13T16:31:50", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C056", "actual_sku": "PRD_V_01", "scanned_sku": "PRD_B_05"}}
+{"timestamp": "2025-08-13T16:31:55", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C056", "actual_sku": "PRD_C_03", "scanned_sku": "PRD_V_03"}}
+{"timestamp": "2025-08-13T16:32:00", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C056", "actual_sku": "PRD_B_05", "scanned_sku": "PRD_T_04"}}
+{"timestamp": "2025-08-13T16:32:25", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C024", "actual_sku": "PRD_V_03", "scanned_sku": "PRD_C_05"}}
+{"timestamp": "2025-08-13T16:32:30", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C024", "actual_sku": "PRD_T_04", "scanned_sku": "PRD_T_05"}}
+{"timestamp": "2025-08-13T16:32:35", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C024", "actual_sku": "PRD_C_05", "scanned_sku": "PRD_F_09"}}
+{"timestamp": "2025-08-13T16:32:40", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C024", "actual_sku": "PRD_T_05", "scanned_sku": "PRD_H_04"}}
+{"timestamp": "2025-08-13T16:32:45", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C024", "actual_sku": "PRD_F_09", "scanned_sku": "PRD_S_04"}}
+{"timestamp": "2025-08-13T16:32:50", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C024", "actual_sku": "PRD_H_04", "scanned_sku": "PRD_A_01"}}
+{"timestamp": "2025-08-13T16:33:35", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C040", "actual_sku": "PRD_S_04", "scanned_sku": "PRD_F_07"}}
+{"timestamp": "2025-08-13T16:33:40", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C040", "actual_sku": "PRD_A_01", "scanned_sku": "PRD_B_01"}}
+{"timestamp": "2025-08-13T16:35:50", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC1", "num_of_customers": 7}}
+{"timestamp": "2025-08-13T16:35:50", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:35:55", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC1", "num_of_customers": 6}}
+{"timestamp": "2025-08-13T16:35:55", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:36:00", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:37:40", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C058", "actual_sku": "PRD_F_07", "scanned_sku": "PRD_H_05"}}
+{"timestamp": "2025-08-13T16:38:25", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:39:40", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:39:45", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:39:50", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:41:30", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:41:35", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:43:05", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:43:10", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:43:15", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:43:20", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:43:25", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:43:30", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:44:00", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:44:05", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:44:30", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:44:35", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:44:40", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:46:15", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC1", "num_of_customers": 7}}
+{"timestamp": "2025-08-13T16:46:15", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:46:20", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC1", "num_of_customers": 6}}
+{"timestamp": "2025-08-13T16:46:20", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:46:25", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC1", "num_of_customers": 7}}
+{"timestamp": "2025-08-13T16:46:25", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:46:30", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC1", "num_of_customers": 6}}
+{"timestamp": "2025-08-13T16:46:30", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:46:35", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:46:40", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:46:45", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:46:55", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC2", "num_of_customers": 6}}
+{"timestamp": "2025-08-13T16:46:55", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC2", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:47:00", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC4", "num_of_customers": 6}}
+{"timestamp": "2025-08-13T16:47:00", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC2", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:47:00", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC4", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:47:05", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC2", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:47:05", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC4", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:51:40", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C006", "actual_sku": "PRD_F_01", "scanned_sku": "PRD_F_12"}}
+{"timestamp": "2025-08-13T16:51:45", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C006", "actual_sku": "PRD_B_01", "scanned_sku": "PRD_F_15"}}
+{"timestamp": "2025-08-13T16:51:50", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C006", "actual_sku": "PRD_V_05", "scanned_sku": "PRD_F_07"}}
+{"timestamp": "2025-08-13T16:51:50", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC1", "num_of_customers": 6}}
+{"timestamp": "2025-08-13T16:51:50", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:52:30", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C014", "actual_sku": "PRD_F_03", "scanned_sku": "PRD_F_09"}}
+{"timestamp": "2025-08-13T16:52:35", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C014", "actual_sku": "PRD_T_01", "scanned_sku": "PRD_A_02"}}
+{"timestamp": "2025-08-13T16:52:40", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C014", "actual_sku": "PRD_F_12", "scanned_sku": "PRD_S_03"}}
+{"timestamp": "2025-08-13T16:52:45", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C014", "actual_sku": "PRD_F_15", "scanned_sku": "PRD_F_02"}}
+{"timestamp": "2025-08-13T16:52:50", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C014", "actual_sku": "PRD_F_07", "scanned_sku": "PRD_T_02"}}
+{"timestamp": "2025-08-13T16:53:15", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C049", "actual_sku": "PRD_V_04", "scanned_sku": "PRD_H_04"}}
+{"timestamp": "2025-08-13T16:53:20", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C049", "actual_sku": "PRD_F_09", "scanned_sku": "PRD_T_05"}}
+{"timestamp": "2025-08-13T16:53:25", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C049", "actual_sku": "PRD_A_02", "scanned_sku": "PRD_A_05"}}
+{"timestamp": "2025-08-13T16:53:30", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C049", "actual_sku": "PRD_S_03", "scanned_sku": "PRD_F_12"}}
+{"timestamp": "2025-08-13T16:53:35", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C049", "actual_sku": "PRD_F_02", "scanned_sku": "PRD_A_03"}}
+{"timestamp": "2025-08-13T16:53:40", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C049", "actual_sku": "PRD_T_02", "scanned_sku": "PRD_B_03"}}
+{"timestamp": "2025-08-13T16:57:00", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC1", "num_of_customers": 8}}
+{"timestamp": "2025-08-13T16:57:00", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Manager"}}
+{"timestamp": "2025-08-13T16:57:05", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC1", "num_of_customers": 8}}
+{"timestamp": "2025-08-13T16:57:05", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Manager"}}
+{"timestamp": "2025-08-13T16:57:10", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC1", "num_of_customers": 7}}
+{"timestamp": "2025-08-13T16:57:10", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:57:15", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC1", "num_of_customers": 7}}
+{"timestamp": "2025-08-13T16:57:15", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:57:20", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC1", "num_of_customers": 7}}
+{"timestamp": "2025-08-13T16:57:20", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:57:25", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC1", "num_of_customers": 6}}
+{"timestamp": "2025-08-13T16:57:25", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:57:30", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:57:35", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:57:40", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:57:45", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T16:59:45", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C055", "actual_sku": "PRD_H_04", "scanned_sku": "PRD_A_04"}}
+{"timestamp": "2025-08-13T16:59:50", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C055", "actual_sku": "PRD_T_05", "scanned_sku": "PRD_A_03"}}
+{"timestamp": "2025-08-13T16:59:55", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C055", "actual_sku": "PRD_A_05", "scanned_sku": "PRD_C_03"}}
+{"timestamp": "2025-08-13T17:01:15", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:01:20", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 6}}
+{"timestamp": "2025-08-13T17:01:20", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:01:25", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 6}}
+{"timestamp": "2025-08-13T17:01:25", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:01:30", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 6}}
+{"timestamp": "2025-08-13T17:01:30", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:01:35", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 6}}
+{"timestamp": "2025-08-13T17:01:35", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:01:40", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 7}}
+{"timestamp": "2025-08-13T17:01:40", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:01:45", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 8}}
+{"timestamp": "2025-08-13T17:01:45", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Manager"}}
+{"timestamp": "2025-08-13T17:01:50", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 8}}
+{"timestamp": "2025-08-13T17:01:50", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Manager"}}
+{"timestamp": "2025-08-13T17:01:55", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 7}}
+{"timestamp": "2025-08-13T17:01:55", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:02:00", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C053", "actual_sku": "PRD_F_12", "scanned_sku": "PRD_C_02"}}
+{"timestamp": "2025-08-13T17:02:00", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 7}}
+{"timestamp": "2025-08-13T17:02:00", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:02:05", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 7}}
+{"timestamp": "2025-08-13T17:02:05", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:02:10", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 7}}
+{"timestamp": "2025-08-13T17:02:10", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:02:15", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 8}}
+{"timestamp": "2025-08-13T17:02:15", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Manager"}}
+{"timestamp": "2025-08-13T17:02:20", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 8}}
+{"timestamp": "2025-08-13T17:02:20", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Manager"}}
+{"timestamp": "2025-08-13T17:02:25", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 7}}
+{"timestamp": "2025-08-13T17:02:25", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:02:30", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 7}}
+{"timestamp": "2025-08-13T17:02:30", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:02:35", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 7}}
+{"timestamp": "2025-08-13T17:02:35", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:02:40", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 7}}
+{"timestamp": "2025-08-13T17:02:40", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:02:45", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 7}}
+{"timestamp": "2025-08-13T17:02:45", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:02:50", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 6}}
+{"timestamp": "2025-08-13T17:02:50", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:02:55", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 6}}
+{"timestamp": "2025-08-13T17:02:55", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:03:00", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:03:05", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:03:10", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C024", "actual_sku": "PRD_A_03", "scanned_sku": "PRD_T_04"}}
+{"timestamp": "2025-08-13T17:03:10", "event_id": "E003", "event_data": {"event_name": "Weight Discrepancies", "station_id": "SCC1", "customer_id": "C024", "product_sku": "PRD_T_04", "expected_weight": 1000, "actual_weight": 1201}}
+{"timestamp": "2025-08-13T17:03:35", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC1", "num_of_customers": 8}}
+{"timestamp": "2025-08-13T17:03:35", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Manager"}}
+{"timestamp": "2025-08-13T17:03:40", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC1", "num_of_customers": 7}}
+{"timestamp": "2025-08-13T17:03:40", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:03:45", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC1", "num_of_customers": 6}}
+{"timestamp": "2025-08-13T17:03:45", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:03:50", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:05:20", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C028", "actual_sku": "PRD_B_03", "scanned_sku": "PRD_T_03"}}
+{"timestamp": "2025-08-13T17:05:30", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C028", "actual_sku": "PRD_A_04", "scanned_sku": "PRD_H_02"}}
+{"timestamp": "2025-08-13T17:05:35", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C028", "actual_sku": "PRD_A_03", "scanned_sku": "PRD_F_11"}}
+{"timestamp": "2025-08-13T17:05:50", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC1", "num_of_customers": 7}}
+{"timestamp": "2025-08-13T17:05:50", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:05:55", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC1", "num_of_customers": 7}}
+{"timestamp": "2025-08-13T17:05:55", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:06:00", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC1", "num_of_customers": 7}}
+{"timestamp": "2025-08-13T17:06:00", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:06:05", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC1", "num_of_customers": 7}}
+{"timestamp": "2025-08-13T17:06:05", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:06:10", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC1", "num_of_customers": 7}}
+{"timestamp": "2025-08-13T17:06:10", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:06:15", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC1", "num_of_customers": 6}}
+{"timestamp": "2025-08-13T17:06:15", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:06:20", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:06:40", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C004", "actual_sku": "PRD_C_03", "scanned_sku": "PRD_A_04"}}
+{"timestamp": "2025-08-13T17:07:20", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C031", "actual_sku": "PRD_T_03", "scanned_sku": "PRD_F_07"}}
+{"timestamp": "2025-08-13T17:07:25", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C031", "actual_sku": "PRD_F_07", "scanned_sku": "PRD_C_03"}}
+{"timestamp": "2025-08-13T17:07:30", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C031", "actual_sku": "PRD_H_02", "scanned_sku": "PRD_F_05"}}
+{"timestamp": "2025-08-13T17:07:35", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C031", "actual_sku": "PRD_F_11", "scanned_sku": "PRD_C_01"}}
+{"timestamp": "2025-08-13T17:09:25", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C050", "actual_sku": "PRD_F_10", "scanned_sku": "PRD_S_05"}}
+{"timestamp": "2025-08-13T17:09:30", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C050", "actual_sku": "PRD_T_04", "scanned_sku": "PRD_F_06"}}
+{"timestamp": "2025-08-13T17:09:35", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C050", "actual_sku": "PRD_F_07", "scanned_sku": "PRD_F_02"}}
+{"timestamp": "2025-08-13T17:09:40", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C050", "actual_sku": "PRD_C_03", "scanned_sku": "PRD_V_03"}}
+{"timestamp": "2025-08-13T17:09:45", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C050", "actual_sku": "PRD_F_05", "scanned_sku": "PRD_C_04"}}
+{"timestamp": "2025-08-13T17:10:00", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C033", "actual_sku": "PRD_C_01", "scanned_sku": "PRD_F_08"}}
+{"timestamp": "2025-08-13T17:10:05", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C033", "actual_sku": "PRD_H_03", "scanned_sku": "PRD_F_12"}}
+{"timestamp": "2025-08-13T17:10:10", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C033", "actual_sku": "PRD_S_05", "scanned_sku": "PRD_H_04"}}
+{"timestamp": "2025-08-13T17:10:15", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C033", "actual_sku": "PRD_F_06", "scanned_sku": "PRD_T_02"}}
+{"timestamp": "2025-08-13T17:11:10", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC1", "num_of_customers": 7}}
+{"timestamp": "2025-08-13T17:11:10", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:11:15", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC1", "num_of_customers": 6}}
+{"timestamp": "2025-08-13T17:11:15", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:11:20", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC1", "num_of_customers": 6}}
+{"timestamp": "2025-08-13T17:11:20", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:11:25", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:12:10", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C060", "actual_sku": "PRD_F_02", "scanned_sku": "PRD_V_02"}}
+{"timestamp": "2025-08-13T17:12:15", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C060", "actual_sku": "PRD_V_03", "scanned_sku": "PRD_B_01"}}
+{"timestamp": "2025-08-13T17:12:20", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C060", "actual_sku": "PRD_C_04", "scanned_sku": "PRD_S_04"}}
+{"timestamp": "2025-08-13T17:12:20", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C011", "actual_sku": "PRD_F_08", "scanned_sku": "PRD_F_13"}}
+{"timestamp": "2025-08-13T17:12:25", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C011", "actual_sku": "PRD_F_12", "scanned_sku": "PRD_F_11"}}
+{"timestamp": "2025-08-13T17:13:00", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C036", "actual_sku": "PRD_H_04", "scanned_sku": "PRD_V_05"}}
+{"timestamp": "2025-08-13T17:13:05", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C036", "actual_sku": "PRD_T_02", "scanned_sku": "PRD_S_03"}}
+{"timestamp": "2025-08-13T17:13:10", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C036", "actual_sku": "PRD_V_02", "scanned_sku": "PRD_F_13"}}
+{"timestamp": "2025-08-13T17:13:15", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C036", "actual_sku": "PRD_B_01", "scanned_sku": "PRD_F_11"}}
+{"timestamp": "2025-08-13T17:13:20", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C036", "actual_sku": "PRD_S_04", "scanned_sku": "PRD_B_04"}}
+{"timestamp": "2025-08-13T17:13:35", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:15:00", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC1", "num_of_customers": 7}}
+{"timestamp": "2025-08-13T17:15:00", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:15:05", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC1", "num_of_customers": 6}}
+{"timestamp": "2025-08-13T17:15:05", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:15:10", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:15:15", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:17:30", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C039", "actual_sku": "PRD_F_13", "scanned_sku": "PRD_A_04"}}
+{"timestamp": "2025-08-13T17:17:35", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C039", "actual_sku": "PRD_F_11", "scanned_sku": "PRD_V_05"}}
+{"timestamp": "2025-08-13T17:17:45", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C039", "actual_sku": "PRD_V_05", "scanned_sku": "PRD_F_01"}}
+{"timestamp": "2025-08-13T17:17:45", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C027", "actual_sku": "PRD_S_03", "scanned_sku": "PRD_F_14"}}
+{"timestamp": "2025-08-13T17:17:50", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C027", "actual_sku": "PRD_F_13", "scanned_sku": "PRD_V_02"}}
+{"timestamp": "2025-08-13T17:17:55", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C027", "actual_sku": "PRD_F_11", "scanned_sku": "PRD_F_03"}}
+{"timestamp": "2025-08-13T17:18:00", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C027", "actual_sku": "PRD_B_04", "scanned_sku": "PRD_H_02"}}
+{"timestamp": "2025-08-13T17:18:10", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C027", "actual_sku": "PRD_A_04", "scanned_sku": "PRD_F_08"}}
+{"timestamp": "2025-08-13T17:18:25", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C043", "actual_sku": "PRD_V_05", "scanned_sku": "PRD_C_05"}}
+{"timestamp": "2025-08-13T17:18:30", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C043", "actual_sku": "PRD_F_08", "scanned_sku": "PRD_B_04"}}
+{"timestamp": "2025-08-13T17:18:40", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C020", "actual_sku": "PRD_F_01", "scanned_sku": "PRD_H_05"}}
+{"timestamp": "2025-08-13T17:18:45", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C020", "actual_sku": "PRD_F_14", "scanned_sku": "PRD_B_01"}}
+{"timestamp": "2025-08-13T17:18:50", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C020", "actual_sku": "PRD_V_02", "scanned_sku": "PRD_S_02"}}
+{"timestamp": "2025-08-13T17:18:55", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C020", "actual_sku": "PRD_F_03", "scanned_sku": "PRD_F_02"}}
+{"timestamp": "2025-08-13T17:19:00", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C020", "actual_sku": "PRD_H_02", "scanned_sku": "PRD_S_05"}}
+{"timestamp": "2025-08-13T17:21:35", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC1", "num_of_customers": 8}}
+{"timestamp": "2025-08-13T17:21:35", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Manager"}}
+{"timestamp": "2025-08-13T17:21:40", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC1", "num_of_customers": 7}}
+{"timestamp": "2025-08-13T17:21:40", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:21:45", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC1", "num_of_customers": 6}}
+{"timestamp": "2025-08-13T17:21:45", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:21:50", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC1", "num_of_customers": 6}}
+{"timestamp": "2025-08-13T17:21:50", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:21:55", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:22:00", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:22:25", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:22:40", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:22:45", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:22:50", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C029", "actual_sku": "PRD_T_03", "scanned_sku": "PRD_F_06"}}
+{"timestamp": "2025-08-13T17:22:50", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:22:55", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C029", "actual_sku": "PRD_F_08", "scanned_sku": "PRD_F_15"}}
+{"timestamp": "2025-08-13T17:22:55", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:23:00", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C029", "actual_sku": "PRD_C_05", "scanned_sku": "PRD_S_02"}}
+{"timestamp": "2025-08-13T17:23:00", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:23:05", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C029", "actual_sku": "PRD_B_04", "scanned_sku": "PRD_A_04"}}
+{"timestamp": "2025-08-13T17:23:05", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:23:10", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C029", "actual_sku": "PRD_H_05", "scanned_sku": "PRD_T_04"}}
+{"timestamp": "2025-08-13T17:23:15", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C029", "actual_sku": "PRD_B_01", "scanned_sku": "PRD_H_03"}}
+{"timestamp": "2025-08-13T17:23:15", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:23:35", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:23:40", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:23:45", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:23:50", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 7}}
+{"timestamp": "2025-08-13T17:23:50", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:23:55", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C037", "actual_sku": "PRD_S_02", "scanned_sku": "PRD_A_01"}}
+{"timestamp": "2025-08-13T17:23:55", "event_id": "E003", "event_data": {"event_name": "Weight Discrepancies", "station_id": "SCC1", "customer_id": "C037", "product_sku": "PRD_A_01", "expected_weight": 1000, "actual_weight": 1200}}
+{"timestamp": "2025-08-13T17:23:55", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 7}}
+{"timestamp": "2025-08-13T17:23:55", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:24:00", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 7}}
+{"timestamp": "2025-08-13T17:24:00", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:24:05", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C049", "actual_sku": "PRD_F_02", "scanned_sku": "PRD_T_03"}}
+{"timestamp": "2025-08-13T17:24:05", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 6}}
+{"timestamp": "2025-08-13T17:24:05", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:24:10", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 6}}
+{"timestamp": "2025-08-13T17:24:10", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:24:15", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 6}}
+{"timestamp": "2025-08-13T17:24:15", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:24:20", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 6}}
+{"timestamp": "2025-08-13T17:24:20", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:24:25", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 7}}
+{"timestamp": "2025-08-13T17:24:25", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:24:30", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 8}}
+{"timestamp": "2025-08-13T17:24:30", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Manager"}}
+{"timestamp": "2025-08-13T17:24:35", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 7}}
+{"timestamp": "2025-08-13T17:24:35", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:24:40", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 7}}
+{"timestamp": "2025-08-13T17:24:40", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:24:45", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 7}}
+{"timestamp": "2025-08-13T17:24:45", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:24:50", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 6}}
+{"timestamp": "2025-08-13T17:24:50", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:24:55", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 6}}
+{"timestamp": "2025-08-13T17:24:55", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:25:00", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 6}}
+{"timestamp": "2025-08-13T17:25:00", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:25:05", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 8}}
+{"timestamp": "2025-08-13T17:25:05", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Manager"}}
+{"timestamp": "2025-08-13T17:25:10", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 7}}
+{"timestamp": "2025-08-13T17:25:10", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:25:15", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 6}}
+{"timestamp": "2025-08-13T17:25:15", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:25:20", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 7}}
+{"timestamp": "2025-08-13T17:25:20", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:25:25", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 6}}
+{"timestamp": "2025-08-13T17:25:25", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:25:30", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:25:35", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 6}}
+{"timestamp": "2025-08-13T17:25:35", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:25:40", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 6}}
+{"timestamp": "2025-08-13T17:25:40", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:25:45", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 6}}
+{"timestamp": "2025-08-13T17:25:45", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:25:50", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 6}}
+{"timestamp": "2025-08-13T17:25:50", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:25:55", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 6}}
+{"timestamp": "2025-08-13T17:25:55", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:26:00", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 6}}
+{"timestamp": "2025-08-13T17:26:00", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:26:05", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 7}}
+{"timestamp": "2025-08-13T17:26:05", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:26:10", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 8}}
+{"timestamp": "2025-08-13T17:26:10", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Manager"}}
+{"timestamp": "2025-08-13T17:26:15", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 8}}
+{"timestamp": "2025-08-13T17:26:15", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Manager"}}
+{"timestamp": "2025-08-13T17:26:20", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 8}}
+{"timestamp": "2025-08-13T17:26:20", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Manager"}}
+{"timestamp": "2025-08-13T17:26:25", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 8}}
+{"timestamp": "2025-08-13T17:26:25", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Manager"}}
+{"timestamp": "2025-08-13T17:26:30", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 8}}
+{"timestamp": "2025-08-13T17:26:30", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Manager"}}
+{"timestamp": "2025-08-13T17:26:35", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 8}}
+{"timestamp": "2025-08-13T17:26:35", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Manager"}}
+{"timestamp": "2025-08-13T17:26:40", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 8}}
+{"timestamp": "2025-08-13T17:26:40", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Manager"}}
+{"timestamp": "2025-08-13T17:26:45", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 8}}
+{"timestamp": "2025-08-13T17:26:45", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Manager"}}
+{"timestamp": "2025-08-13T17:26:50", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 8}}
+{"timestamp": "2025-08-13T17:26:50", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Manager"}}
+{"timestamp": "2025-08-13T17:26:55", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 8}}
+{"timestamp": "2025-08-13T17:26:55", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Manager"}}
+{"timestamp": "2025-08-13T17:27:00", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C013", "actual_sku": "PRD_S_05", "scanned_sku": "PRD_H_04"}}
+{"timestamp": "2025-08-13T17:27:00", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 8}}
+{"timestamp": "2025-08-13T17:27:00", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Manager"}}
+{"timestamp": "2025-08-13T17:27:05", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C013", "actual_sku": "PRD_F_06", "scanned_sku": "PRD_S_03"}}
+{"timestamp": "2025-08-13T17:27:05", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 8}}
+{"timestamp": "2025-08-13T17:27:05", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Manager"}}
+{"timestamp": "2025-08-13T17:27:10", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C013", "actual_sku": "PRD_F_15", "scanned_sku": "PRD_F_10"}}
+{"timestamp": "2025-08-13T17:27:10", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 8}}
+{"timestamp": "2025-08-13T17:27:10", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Manager"}}
+{"timestamp": "2025-08-13T17:27:15", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 7}}
+{"timestamp": "2025-08-13T17:27:15", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:27:20", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 7}}
+{"timestamp": "2025-08-13T17:27:20", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:27:25", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "RC1", "num_of_customers": 6}}
+{"timestamp": "2025-08-13T17:27:25", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:27:30", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:27:35", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "RC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:29:25", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C048", "actual_sku": "PRD_S_02", "scanned_sku": "PRD_V_04"}}
+{"timestamp": "2025-08-13T17:29:30", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C048", "actual_sku": "PRD_A_04", "scanned_sku": "PRD_A_05"}}
+{"timestamp": "2025-08-13T17:29:35", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C048", "actual_sku": "PRD_T_04", "scanned_sku": "PRD_F_05"}}
+{"timestamp": "2025-08-13T17:29:40", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C048", "actual_sku": "PRD_H_03", "scanned_sku": "PRD_F_02"}}
+{"timestamp": "2025-08-13T17:29:45", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C048", "actual_sku": "PRD_A_01", "scanned_sku": "PRD_F_14"}}
+{"timestamp": "2025-08-13T17:30:00", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC1", "num_of_customers": 8}}
+{"timestamp": "2025-08-13T17:30:00", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Manager"}}
+{"timestamp": "2025-08-13T17:30:05", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC1", "num_of_customers": 8}}
+{"timestamp": "2025-08-13T17:30:05", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Manager"}}
+{"timestamp": "2025-08-13T17:30:10", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC1", "num_of_customers": 8}}
+{"timestamp": "2025-08-13T17:30:10", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Manager"}}
+{"timestamp": "2025-08-13T17:30:15", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC1", "num_of_customers": 7}}
+{"timestamp": "2025-08-13T17:30:15", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:30:20", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC1", "num_of_customers": 7}}
+{"timestamp": "2025-08-13T17:30:20", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:30:25", "event_id": "E005", "event_data": {"event_name": "Long Queue Length", "station_id": "SCC1", "num_of_customers": 6}}
+{"timestamp": "2025-08-13T17:30:25", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:30:25", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC2", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:30:30", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:30:30", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC2", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:30:35", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC2", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:30:40", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC2", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:32:10", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C001", "actual_sku": "PRD_H_04", "scanned_sku": "PRD_H_05"}}
+{"timestamp": "2025-08-13T17:32:15", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C001", "actual_sku": "PRD_S_03", "scanned_sku": "PRD_T_01"}}
+{"timestamp": "2025-08-13T17:32:15", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C041", "actual_sku": "PRD_F_10", "scanned_sku": "PRD_H_03"}}
+{"timestamp": "2025-08-13T17:32:20", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C001", "actual_sku": "PRD_V_04", "scanned_sku": "PRD_F_12"}}
+{"timestamp": "2025-08-13T17:32:20", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C014", "actual_sku": "PRD_A_05", "scanned_sku": "PRD_F_14"}}
+{"timestamp": "2025-08-13T17:32:20", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C041", "actual_sku": "PRD_F_05", "scanned_sku": "PRD_F_04"}}
+{"timestamp": "2025-08-13T17:32:25", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C014", "actual_sku": "PRD_F_02", "scanned_sku": "PRD_B_01"}}
+{"timestamp": "2025-08-13T17:32:30", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C014", "actual_sku": "PRD_F_14", "scanned_sku": "PRD_B_04"}}
+{"timestamp": "2025-08-13T17:33:30", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C007", "actual_sku": "PRD_V_01", "scanned_sku": "PRD_T_02"}}
+{"timestamp": "2025-08-13T17:33:35", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C007", "actual_sku": "PRD_H_05", "scanned_sku": "PRD_A_04"}}
+{"timestamp": "2025-08-13T17:34:05", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C008", "actual_sku": "PRD_T_01", "scanned_sku": "PRD_F_02"}}
+{"timestamp": "2025-08-13T17:34:05", "event_id": "E003", "event_data": {"event_name": "Weight Discrepancies", "station_id": "SCC1", "customer_id": "C008", "product_sku": "PRD_F_02", "expected_weight": 1000, "actual_weight": 602}}
+{"timestamp": "2025-08-13T17:34:35", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C042", "actual_sku": "PRD_H_03", "scanned_sku": "PRD_H_04"}}
+{"timestamp": "2025-08-13T17:34:40", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C042", "actual_sku": "PRD_F_12", "scanned_sku": "PRD_S_01"}}
+{"timestamp": "2025-08-13T17:34:55", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C058", "actual_sku": "PRD_F_14", "scanned_sku": "PRD_C_03"}}
+{"timestamp": "2025-08-13T17:36:25", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C040", "actual_sku": "PRD_F_04", "scanned_sku": "PRD_T_01"}}
+{"timestamp": "2025-08-13T17:36:30", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C040", "actual_sku": "PRD_B_01", "scanned_sku": "PRD_A_01"}}
+{"timestamp": "2025-08-13T17:36:50", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C023", "actual_sku": "PRD_B_04", "scanned_sku": "PRD_F_05"}}
+{"timestamp": "2025-08-13T17:36:55", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C023", "actual_sku": "PRD_T_02", "scanned_sku": "PRD_F_13"}}
+{"timestamp": "2025-08-13T17:37:15", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C022", "actual_sku": "PRD_A_04", "scanned_sku": "PRD_A_03"}}
+{"timestamp": "2025-08-13T17:37:15", "event_id": "E003", "event_data": {"event_name": "Weight Discrepancies", "station_id": "SCC1", "customer_id": "C022", "product_sku": "PRD_A_03", "expected_weight": 5000, "actual_weight": 6063}}
+{"timestamp": "2025-08-13T17:37:35", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C035", "actual_sku": "PRD_F_02", "scanned_sku": "PRD_C_04"}}
+{"timestamp": "2025-08-13T17:37:40", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C035", "actual_sku": "PRD_H_04", "scanned_sku": "PRD_F_12"}}
+{"timestamp": "2025-08-13T17:37:45", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C035", "actual_sku": "PRD_S_01", "scanned_sku": "PRD_V_01"}}
+{"timestamp": "2025-08-13T17:38:55", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C009", "actual_sku": "PRD_T_01", "scanned_sku": "PRD_F_14"}}
+{"timestamp": "2025-08-13T17:38:55", "event_id": "E003", "event_data": {"event_name": "Weight Discrepancies", "station_id": "SCC1", "customer_id": "C009", "product_sku": "PRD_F_14", "expected_weight": 400, "actual_weight": 312}}
+{"timestamp": "2025-08-13T17:39:00", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C060", "actual_sku": "PRD_A_01", "scanned_sku": "PRD_S_02"}}
+{"timestamp": "2025-08-13T17:39:05", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C060", "actual_sku": "PRD_F_05", "scanned_sku": "PRD_F_07"}}
+{"timestamp": "2025-08-13T17:40:15", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C043", "actual_sku": "PRD_F_13", "scanned_sku": "PRD_H_01"}}
+{"timestamp": "2025-08-13T17:40:20", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C043", "actual_sku": "PRD_A_03", "scanned_sku": "PRD_V_04"}}
+{"timestamp": "2025-08-13T17:40:25", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C043", "actual_sku": "PRD_C_04", "scanned_sku": "PRD_H_03"}}
+{"timestamp": "2025-08-13T17:40:25", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C018", "actual_sku": "PRD_F_12", "scanned_sku": "PRD_S_01"}}
+{"timestamp": "2025-08-13T17:40:25", "event_id": "E003", "event_data": {"event_name": "Weight Discrepancies", "station_id": "SCC1", "customer_id": "C018", "product_sku": "PRD_S_01", "expected_weight": 400, "actual_weight": 160}}
+{"timestamp": "2025-08-13T17:40:30", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C043", "actual_sku": "PRD_V_01", "scanned_sku": "PRD_F_03"}}
+{"timestamp": "2025-08-13T17:40:35", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C043", "actual_sku": "PRD_B_04", "scanned_sku": "PRD_S_02"}}
+{"timestamp": "2025-08-13T17:42:00", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C015", "actual_sku": "PRD_F_14", "scanned_sku": "PRD_F_03"}}
+{"timestamp": "2025-08-13T17:42:05", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C015", "actual_sku": "PRD_S_02", "scanned_sku": "PRD_V_01"}}
+{"timestamp": "2025-08-13T17:42:10", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C015", "actual_sku": "PRD_F_07", "scanned_sku": "PRD_B_02"}}
+{"timestamp": "2025-08-13T17:42:25", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C006", "actual_sku": "PRD_H_01", "scanned_sku": "PRD_F_04"}}
+{"timestamp": "2025-08-13T17:42:30", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C050", "actual_sku": "PRD_V_04", "scanned_sku": "PRD_F_11"}}
+{"timestamp": "2025-08-13T17:42:30", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C006", "actual_sku": "PRD_H_03", "scanned_sku": "PRD_F_10"}}
+{"timestamp": "2025-08-13T17:42:35", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C047", "actual_sku": "PRD_S_01", "scanned_sku": "PRD_H_03"}}
+{"timestamp": "2025-08-13T17:42:35", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C050", "actual_sku": "PRD_F_03", "scanned_sku": "PRD_A_03"}}
+{"timestamp": "2025-08-13T17:42:40", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C047", "actual_sku": "PRD_S_02", "scanned_sku": "PRD_H_01"}}
+{"timestamp": "2025-08-13T17:42:40", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C050", "actual_sku": "PRD_F_03", "scanned_sku": "PRD_B_05"}}
+{"timestamp": "2025-08-13T17:42:45", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C047", "actual_sku": "PRD_V_01", "scanned_sku": "PRD_V_02"}}
+{"timestamp": "2025-08-13T17:42:45", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C050", "actual_sku": "PRD_B_02", "scanned_sku": "PRD_B_03"}}
+{"timestamp": "2025-08-13T17:42:50", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C047", "actual_sku": "PRD_F_04", "scanned_sku": "PRD_V_03"}}
+{"timestamp": "2025-08-13T17:43:05", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C034", "actual_sku": "PRD_F_11", "scanned_sku": "PRD_F_02"}}
+{"timestamp": "2025-08-13T17:43:10", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C034", "actual_sku": "PRD_F_10", "scanned_sku": "PRD_F_14"}}
+{"timestamp": "2025-08-13T17:43:15", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C034", "actual_sku": "PRD_H_03", "scanned_sku": "PRD_F_08"}}
+{"timestamp": "2025-08-13T17:43:20", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C034", "actual_sku": "PRD_A_03", "scanned_sku": "PRD_C_02"}}
+{"timestamp": "2025-08-13T17:43:25", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C034", "actual_sku": "PRD_H_01", "scanned_sku": "PRD_C_01"}}
+{"timestamp": "2025-08-13T17:45:45", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C005", "actual_sku": "PRD_B_05", "scanned_sku": "PRD_H_04"}}
+{"timestamp": "2025-08-13T17:45:50", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C005", "actual_sku": "PRD_V_02", "scanned_sku": "PRD_B_02"}}
+{"timestamp": "2025-08-13T17:45:55", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C005", "actual_sku": "PRD_B_03", "scanned_sku": "PRD_V_03"}}
+{"timestamp": "2025-08-13T17:46:00", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C005", "actual_sku": "PRD_V_03", "scanned_sku": "PRD_C_04"}}
+{"timestamp": "2025-08-13T17:46:05", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C005", "actual_sku": "PRD_F_02", "scanned_sku": "PRD_S_05"}}
+{"timestamp": "2025-08-13T17:47:45", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C045", "actual_sku": "PRD_F_14", "scanned_sku": "PRD_A_05"}}
+{"timestamp": "2025-08-13T17:47:50", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C045", "actual_sku": "PRD_F_08", "scanned_sku": "PRD_F_04"}}
+{"timestamp": "2025-08-13T17:47:55", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C045", "actual_sku": "PRD_C_02", "scanned_sku": "PRD_B_02"}}
+{"timestamp": "2025-08-13T17:48:00", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C045", "actual_sku": "PRD_C_01", "scanned_sku": "PRD_H_02"}}
+{"timestamp": "2025-08-13T17:49:15", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C053", "actual_sku": "PRD_H_04", "scanned_sku": "PRD_S_03"}}
+{"timestamp": "2025-08-13T17:49:15", "event_id": "E003", "event_data": {"event_name": "Weight Discrepancies", "station_id": "SCC1", "customer_id": "C053", "product_sku": "PRD_S_03", "expected_weight": 1500, "actual_weight": 756}}
+{"timestamp": "2025-08-13T17:49:40", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C030", "actual_sku": "PRD_B_02", "scanned_sku": "PRD_C_04"}}
+{"timestamp": "2025-08-13T17:49:45", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C030", "actual_sku": "PRD_V_03", "scanned_sku": "PRD_F_02"}}
+{"timestamp": "2025-08-13T17:49:50", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C030", "actual_sku": "PRD_C_04", "scanned_sku": "PRD_C_05"}}
+{"timestamp": "2025-08-13T17:49:55", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C030", "actual_sku": "PRD_S_05", "scanned_sku": "PRD_V_03"}}
+{"timestamp": "2025-08-13T17:50:50", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C052", "actual_sku": "PRD_A_05", "scanned_sku": "PRD_T_04"}}
+{"timestamp": "2025-08-13T17:50:55", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C052", "actual_sku": "PRD_F_04", "scanned_sku": "PRD_A_05"}}
+{"timestamp": "2025-08-13T17:51:00", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C052", "actual_sku": "PRD_B_02", "scanned_sku": "PRD_A_01"}}
+{"timestamp": "2025-08-13T17:51:05", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C052", "actual_sku": "PRD_H_02", "scanned_sku": "PRD_S_02"}}
+{"timestamp": "2025-08-13T17:51:15", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C052", "actual_sku": "PRD_S_03", "scanned_sku": "PRD_F_09"}}
+{"timestamp": "2025-08-13T17:51:25", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C013", "actual_sku": "PRD_C_04", "scanned_sku": "PRD_F_10"}}
+{"timestamp": "2025-08-13T17:51:30", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C013", "actual_sku": "PRD_F_02", "scanned_sku": "PRD_H_01"}}
+{"timestamp": "2025-08-13T17:51:45", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C040", "actual_sku": "PRD_C_05", "scanned_sku": "PRD_S_03"}}
+{"timestamp": "2025-08-13T17:51:55", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C040", "actual_sku": "PRD_V_03", "scanned_sku": "PRD_S_05"}}
+{"timestamp": "2025-08-13T17:53:05", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C054", "actual_sku": "PRD_A_02", "scanned_sku": "PRD_A_03"}}
+{"timestamp": "2025-08-13T17:53:05", "event_id": "E003", "event_data": {"event_name": "Weight Discrepancies", "station_id": "SCC1", "customer_id": "C054", "product_sku": "PRD_A_03", "expected_weight": 5000, "actual_weight": 3558}}
+{"timestamp": "2025-08-13T17:54:35", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C012", "actual_sku": "PRD_T_04", "scanned_sku": "PRD_B_01"}}
+{"timestamp": "2025-08-13T17:54:40", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C012", "actual_sku": "PRD_A_05", "scanned_sku": "PRD_V_02"}}
+{"timestamp": "2025-08-13T17:55:25", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C017", "actual_sku": "PRD_A_01", "scanned_sku": "PRD_S_03"}}
+{"timestamp": "2025-08-13T17:57:10", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C051", "actual_sku": "PRD_S_02", "scanned_sku": "PRD_B_02"}}
+{"timestamp": "2025-08-13T17:57:15", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C051", "actual_sku": "PRD_V_04", "scanned_sku": "PRD_T_01"}}
+{"timestamp": "2025-08-13T17:57:20", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C051", "actual_sku": "PRD_F_09", "scanned_sku": "PRD_C_01"}}
+{"timestamp": "2025-08-13T17:57:25", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C051", "actual_sku": "PRD_F_10", "scanned_sku": "PRD_F_06"}}
+{"timestamp": "2025-08-13T17:57:50", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C057", "actual_sku": "PRD_H_01", "scanned_sku": "PRD_F_07"}}
+{"timestamp": "2025-08-13T17:57:55", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C057", "actual_sku": "PRD_S_03", "scanned_sku": "PRD_C_03"}}
+{"timestamp": "2025-08-13T17:58:00", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C057", "actual_sku": "PRD_C_04", "scanned_sku": "PRD_V_04"}}
+{"timestamp": "2025-08-13T17:58:05", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC1", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:58:20", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC2", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:58:25", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC2", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:58:30", "event_id": "E008", "event_data": {"event_name": "Staffing Needs", "station_id": "SCC2", "Staff_type": "Cashier"}}
+{"timestamp": "2025-08-13T17:58:40", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C002", "actual_sku": "PRD_S_05", "scanned_sku": "PRD_V_05"}}
+{"timestamp": "2025-08-13T17:58:45", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C002", "actual_sku": "PRD_A_03", "scanned_sku": "PRD_S_01"}}
+{"timestamp": "2025-08-13T17:58:50", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C002", "actual_sku": "PRD_B_01", "scanned_sku": "PRD_V_02"}}
+{"timestamp": "2025-08-13T17:58:55", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C002", "actual_sku": "PRD_V_02", "scanned_sku": "PRD_F_09"}}
+{"timestamp": "2025-08-13T17:59:00", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C002", "actual_sku": "PRD_S_03", "scanned_sku": "PRD_H_05"}}
+{"timestamp": "2025-08-13T17:59:05", "event_id": "E002", "event_data": {"event_name": "Barcode Switching", "station_id": "SCC1", "customer_id": "C002", "actual_sku": "PRD_B_02", "scanned_sku": "PRD_F_01"}}
+{"timestamp": "2025-08-13T18:00:00", "event_id": "E009", "event_data": {"event_name": "Checkout Station Action", "station_id": "SCC1", "Action": "Close"}}
+{"timestamp": "2025-08-13T18:00:00", "event_id": "E009", "event_data": {"event_name": "Checkout Station Action", "station_id": "RC1", "Action": "Close"}}
+{"timestamp": "2025-08-13T18:00:00", "event_id": "E009", "event_data": {"event_name": "Checkout Station Action", "station_id": "SCC2", "Action": "Close"}}
+{"timestamp": "2025-08-13T18:00:00", "event_id": "E009", "event_data": {"event_name": "Checkout Station Action", "station_id": "SCC3", "Action": "Close"}}
+{"timestamp": "2025-08-13T18:00:00", "event_id": "E009", "event_data": {"event_name": "Checkout Station Action", "station_id": "SCC4", "Action": "Close"}}

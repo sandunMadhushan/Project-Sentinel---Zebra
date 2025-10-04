@@ -27,18 +27,27 @@ def load_products_catalog(csv_path: str) -> Dict[str, Dict]:
         Dictionary mapping SKU to product attributes
     """
     products = {}
-    with open(csv_path, 'r', encoding='utf-8') as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            sku = row['SKU']
-            products[sku] = {
-                'product_name': row['product_name'],
-                'quantity': int(row['quantity']),
-                'epc_range': row['EPC_range'],
-                'barcode': row['barcode'],
-                'weight': float(row['weight']),
-                'price': float(row['price'])
-            }
+    
+    # Read and clean the file content first
+    with open(csv_path, 'r', encoding='utf-8-sig') as f:  # utf-8-sig handles BOM
+        content = f.read().strip()  # Remove leading/trailing whitespace
+    
+    # Parse the cleaned content
+    lines = content.split('\n')
+    reader = csv.DictReader(lines)
+    
+    for row in reader:
+        if not row.get('SKU'):  # Skip empty rows
+            continue
+        sku = row['SKU'].strip()
+        products[sku] = {
+            'product_name': row['product_name'].strip(),
+            'quantity': int(row['quantity']),
+            'epc_range': row['EPC_range'].strip(),
+            'barcode': row['barcode'].strip(),
+            'weight': float(row['weight']),
+            'price': float(row['price'])
+        }
     return products
 
 
@@ -53,16 +62,25 @@ def load_customers_data(csv_path: str) -> Dict[str, Dict]:
         Dictionary mapping Customer_ID to customer attributes
     """
     customers = {}
-    with open(csv_path, 'r', encoding='utf-8') as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            customer_id = row['Customer_ID']
-            customers[customer_id] = {
-                'name': row.get('Name', ''),
-                'age': row.get('Age', ''),
-                'address': row.get('Address', ''),
-                'phone': row.get('TP', row.get('Phone', ''))
-            }
+    
+    # Read and clean the file content first
+    with open(csv_path, 'r', encoding='utf-8-sig') as f:  # utf-8-sig handles BOM
+        content = f.read().strip()  # Remove leading/trailing whitespace
+    
+    # Parse the cleaned content
+    lines = content.split('\n')
+    reader = csv.DictReader(lines)
+    
+    for row in reader:
+        if not row.get('Customer_ID'):  # Skip empty rows
+            continue
+        customer_id = row['Customer_ID'].strip()
+        customers[customer_id] = {
+            'name': row.get('Name', '').strip(),
+            'age': row.get('Age', '').strip(),
+            'address': row.get('Address', '').strip(),
+            'phone': row.get('TP', row.get('Phone', '')).strip()
+        }
     return customers
 
 
